@@ -1,0 +1,82 @@
+import Link from "next/link";
+
+function Footer() {
+  return (
+    <footer className="bg-accent-light text-secondary py-4 px-4">
+      <div className="mx-auto max-w-6xl px-4 py-12">
+        {/* Main footer layout */}
+        <div className="grid gap-6 md:grid-cols-5">
+          {/* Brand */}
+          <div>
+            <Link href={"/"}><h2 className="font-serif text-2xl tracking-wide">stem.</h2></Link>
+            <p className="mt-5 max-w-xs text-sm leading-7 text-secondary">
+              To make every moment bloom
+            </p>
+          </div>
+
+          {/* Empty spacer column */}
+          <div className="hidden md:block"></div>
+
+          {/* Shop links */}
+          <div>
+            <h3 className="text-lg font-semibold">Shop</h3>
+            <ul className="mt-5 space-y-3 text-sm text-secondary">
+              <li>
+                <Link href="/shop" className="hover:text-secondary-light">
+                  All Flowers
+                </Link>
+              </li>
+              <li>
+                <Link href="/shop/gift-sets" className="hover:text-white">
+                  Gift Sets
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Help links */}
+          <div>
+            <h3 className="text-lg font-semibold">Help</h3>
+            <ul className="mt-5 space-y-3 text-sm text-secondary">
+              <li>
+                <Link href="/faq" className="hover:text-white">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/delivery" className="hover:text-white">
+                  Delivery Info
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="hover:text-white">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="text-lg font-semibold">Contact</h3>
+            <ul className="mt-5 space-y-3 text-sm text-secondary">
+              <li>
+                <a href="mailto:hello@casaflorista.com.au" className="hover:text-white">
+                  hello@stem.com.au
+                </a>
+              </li>
+              <li>Melbourne, Australia</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="mt-10 border-t border-white/20 pt-6 text-center text-sm text-secondary">
+          © 2026 stem. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
