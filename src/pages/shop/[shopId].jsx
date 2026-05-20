@@ -21,7 +21,7 @@ function ShopId() {
         <p className="mb-4 text-sm uppercase tracking-[0.25em] text-muted">{shop.category}</p>
         <h1>{shop.name}</h1>
 
-        <p className="mt-6 text-2xl">{shop.price}.00</p>
+        <p className="mt-6 text-2xl">${shop.price}.00</p>
 
         <label className="mt-6 flex flex-col gap-2">
           Quantity
@@ -33,12 +33,18 @@ function ShopId() {
         </label>
         <p className="mt-6">{shop.description}</p>
         <button
-          onClick={() => alert(`${shop.name} added to cart`)}
+          onClick={() => {
+            // Save the selected shop item into localStorage
+            localStorage.setItem("cartItem", JSON.stringify(shop));
+            alert(`${shop.name} added to cart`);
+          }}
           className="w-fit mt-8 py-3 px-6 tracking-wide text-sm bg-accent-light transition hover:bg-transparent hover:text-secondary-light hover:border"
         >
           Add to Cart
         </button>
-        <Link href="/shop" className="mt-8 block text-sm underline">back to shop</Link>
+        <Link href="/shop" className="mt-8 block text-sm underline">
+          back to shop
+        </Link>
       </div>
     </div>
   );

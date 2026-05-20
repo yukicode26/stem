@@ -15,7 +15,7 @@ function FeaturedFlowers() {
           </p>
 
           <h2 className="mt-3 font-serif text-4xl text-[#2B2430] md:text-5xl">
-            Featured Flowers
+            Signature Flowers
           </h2>
         </div>
 

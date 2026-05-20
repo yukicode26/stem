@@ -3,52 +3,49 @@ import Link from "next/link";
 
 function AboutPreview() {
   return (
-    <section className="px-6 py-24">
-      
+    <section className="px-6 py-24 md:px-10">
       <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
-        
-        {/* Left content */}
-        <div>
-          <p className="text-sm uppercase tracking-[0.25em] text-[#8B5FBF]">
-            About Us
+        {/* Left image */}
+        <div className="overflow-hidden rounded-tr-[120px] bg-[#F4F1EC]">
+          <Image
+            src="/images/aboutpreview.png"
+            alt="Florist arranging flowers"
+            width={900}
+            height={1000}
+            className="h-[520px] w-full object-cover transition duration-[5000ms] hover:scale-105"
+          />
+        </div>
+
+        {/* Right content */}
+        <div className="lg:pl-8">
+          <p className="text-xs uppercase tracking-[0.35em] text-[#8A9A8A]">
+            About Stem.
           </p>
 
-          <h2 className="mt-4 font-serif text-5xl leading-tight text-[#2B2430]">
-            Crafted with care,
+          <h2 className="mt-5 max-w-xl font-serif text-4xl leading-tight text-[#2B2B2B] md:text-5xl">
+            Quiet flowers,
             <br />
-            inspired by simplicity.
+            thoughtfully made.
           </h2>
 
-          <p className="mt-8 max-w-lg leading-8 text-[#6B6570]">
-            We believe flowers should feel soft, natural, and timeless.
-            Every bouquet is carefully arranged in Melbourne using seasonal blooms and thoughtful details.
+          <p className="mt-8 max-w-lg leading-8 text-[#6F6A64]">
+            We create soft, natural flower arrangements for everyday moments,
+            calm spaces, and thoughtful gifts.
           </p>
 
-          <p className="mt-6 max-w-lg leading-8 text-[#6B6570]">
-            Inspired by minimal living and quiet beauty, our collections are designed for everyday moments.
+          <p className="mt-5 max-w-lg leading-8 text-[#6F6A64]">
+            Each bouquet is arranged in Melbourne with seasonal blooms, gentle
+            colours, and a simple sense of beauty.
           </p>
 
           <Link
             href="/about"
-            className="mt-10 inline-block rounded-xl border border-[#D8C7EA] px-8 py-4 text-[#2B2430] transition hover:bg-[#F4EEF8]"
+            className="mt-10 inline-block  border border-[#D8D2C7] px-8 py-4 text-sm uppercase tracking-[0.18em] text-[#2B2B2B] transition hover:bg-[#F4F1EC]"
           >
             Learn More
           </Link>
         </div>
-
-        {/* Right image */}
-        <div className="overflow-hidden rounded-bl-[140px]">
-          <Image
-            src="/images/about-preview.jpg"
-            alt="Florist arranging flowers"
-            width={900}
-            height={1000}
-            className="h-full w-full object-cover"
-          />
-        </div>
-
       </div>
-
     </section>
   );
 }

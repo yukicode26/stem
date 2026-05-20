@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 
 function CheckoutPage() {
   const router = useRouter();
+  
   return (
     <div className="max-w-xl mx-auto my-12">
       <h1 className="text-center">Checkout</h1>

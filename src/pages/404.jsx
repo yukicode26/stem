@@ -12,7 +12,7 @@ function NotFoundPage() {
       Error
     </p>
 
-    <h1 className="font-serif text-[8rem] leading-none md:text-[10rem] lg:text-[12rem]">
+    <h1 className="font-serif text-32 leading-none md:text-40 lg:text-48">
       404
     </h1>
 
@@ -42,7 +42,7 @@ function NotFoundPage() {
       width={1200}
       height={1200}
       loading="eager"
-      className="h-auto w-[380p md:w-[480px] lg:w-[560px]"
+      className="h-auto w-[380px] md:w-[480px] lg:w-[560px]"
     />
   </div>
 

@@ -5,6 +5,7 @@ import Link from "next/link";
 import Head from "next/head";
 import HomeHero from "@/components/home/HomeHero";
 import AboutPreview from "@/components/home/AboutPreview";
+import SeasonalCollection from "@/components/home/SeasonalCollection";
 
 function HomePage() {
   // LOGIC SECTION (JS)
@@ -29,7 +30,7 @@ function HomePage() {
       </Head>
       <main>
         <HomeHero />
-
+        <SeasonalCollection />
         <AboutPreview />
       </main>
     </>

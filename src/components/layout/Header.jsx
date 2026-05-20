@@ -8,22 +8,22 @@ function Header() {
         <nav>
           <ul className="flex gap-8 uppercase text-sm">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/" className="hover:text-accent">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about" className="hover:text-accent">About</Link>
             </li>
             <li>
-              <Link href="/shop">Shop</Link>
+              <Link href="/shop" className="hover:text-accent">Shop</Link>
             </li>
             <li>
-              <Link href="/journal">Journal</Link>
+              <Link href="/journal" className="hover:text-accent">Journal</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact" className="hover:text-accent">Contact</Link>
             </li>
             <li>
-              <Link href="/shop/cart" className="flex item-center gap-2"><HiOutlineShoppingBag size={20}/>
+              <Link href="/shop/cart" className="flex item-center gap-2 hover:text-accent"><HiOutlineShoppingBag size={20}/>
               <span>cart (1)</span>
               </Link>
             </li>

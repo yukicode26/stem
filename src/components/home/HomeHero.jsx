@@ -3,58 +3,56 @@ import Link from "next/link";
 
 function HomeHero() {
   return (
-    <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2">
-      
+    <section className="mx-auto grid min-h-[80vh] max-w-7xl items-center gap-14 px-8 py-10 md:px-16 lg:grid-cols-2">
       {/* Left content */}
-      <div>
-        <p className="mb-4 text-sm uppercase tracking-[0.25em] text-accent">
+      <div className="max-w-xl">
+        <p className="mb-5 text-xs uppercase tracking-[0.35em] text-muted">
           Melbourne Florist
         </p>
 
-        <h1 className="font-serif text-5xl leading-tight text-[#2B2430] md:text-6xl">
-          Minimal flowers
+        <h1 className="font-serif text-5xl leading-[1.05] text-sub md:text-7xl">
+          Quiet flowers
           <br />
-          to make every moment
+          for beautiful
           <br />
-          bloom.
+          moments.
         </h1>
 
-        <p className="mt-6 max-w-md text-lg leading-8 text-[#6B6570]">
-          Fresh, beautiful flowers crafted in Melbourne.
+        <p className="mt-7 max-w-md text-base leading-8 text-muted">
+          Fresh seasonal flowers, softly arranged in Melbourne for everyday gifts,
+          calm homes, and special days.
         </p>
 
         {/* CTA buttons */}
         <div className="mt-10 flex flex-wrap gap-4">
-          
           <Link
             href="/shop"
-            className="rounded-xl bg-accent px-8 py-4 text-white transition hover:opacity-90"
+            className="bg-sub px-8 py-4 text-sm uppercase tracking-[0.2em] text-main transition hover:bg-accent hover:text-primary"
           >
             Shop Now
           </Link>
 
           <Link
             href="/about"
-            className="rounded-xl border border-[#D8C7EA] px-8 py-4 text-[#2B2430] transition hover:bg-[#F4EEF8]"
+            className="border border-border px-8 py-4 text-sm uppercase tracking-[0.2em] text-sub transition hover:bg-accent-light"
           >
-            Learn More
+            Our Story
           </Link>
-
         </div>
       </div>
 
       {/* Right image */}
-      <div className="overflow-hidden rounded-tl-[140px] bg-accent-light">
-        <Image
-          src="/images/hero.png"
-          alt="Flower bouquet"
-          width={1000}
-          height={1000}
-          className="h-full w-full object-cover"
-          priority
-        />
-      </div>
 
+        <div className="overflow-hidden rounded-tl-[250px]">
+          <Image
+            src="/images/hero.png"
+            alt="Minimal flower arrangement"
+            width={700}
+            height={800}
+            className="h-[620px] w-full object-cover"
+            priority
+          />
+        </div>
     </section>
   );
 }

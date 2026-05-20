@@ -3,48 +3,92 @@ import Link from "next/link";
 
 function SeasonalCollection() {
   return (
-    <section className="bg-[#F8F4F1] px-6 py-24">
-      
-      <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
-        
-        {/* Left image */}
-        <div className="overflow-hidden rounded-tr-[140px]">
-          <Image
-            src="/images/seasonal-flower.jpg"
-            alt="Seasonal flowers"
-            width={900}
-            height={1000}
-            className="h-full w-full object-cover"
-          />
-        </div>
+    <>
+      {/* daisyUI */}
+      <section className="px-30 py-24">
+        <div className="mb-12 flex items-end justify-between">
+          <div>
+            <h2 className="mt-4 font-serif text-4xl text-sub">Seasonal Collection</h2>
+          </div>
 
-        {/* Right content */}
-        <div>
-          <p className="text-sm uppercase tracking-[0.25em] text-[#8B5FBF]">
-            Seasonal Collection
-          </p>
-
-          <h2 className="mt-4 font-serif text-5xl leading-tight text-[#2B2430]">
-            Flowers inspired
-            <br />
-            by the season.
-          </h2>
-
-          <p className="mt-8 max-w-lg leading-8 text-[#6B6570]">
-            Thoughtfully arranged bouquets using fresh seasonal flowers, designed to bring softness and calm into everyday life.
-          </p>
-
-          <Link
-            href="/shop"
-            className="mt-10 inline-block rounded-xl bg-[#8B5FBF] px-8 py-4 text-white transition hover:opacity-90"
-          >
-            Explore Collection
+          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] text-muted hover:text-sub">
+            View All
           </Link>
         </div>
 
-      </div>
+        <div className="carousel carousel-center w-full gap-6 overflow-x-auto">
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/soft-rose.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
 
-    </section>
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/autumn-tones.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/winter-light.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/spring-air.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/summer-meadow.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/golden-leaves.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <Image
+              src="/images/shop/rainy-morning.png"
+              alt="Seasonal flowers"
+              width={340}
+              height={500}
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 

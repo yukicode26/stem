@@ -26,7 +26,7 @@ function ShopPage() {
                 <div className="mt-5 space-y-2">
                   <h2 className="text-2xl">{item.name}</h2>
 
-                  <p className="text-muted">{item.price}</p>
+                  <p className="text-muted">${item.price}.00</p>
                 </div>
               </Link>
             </article>

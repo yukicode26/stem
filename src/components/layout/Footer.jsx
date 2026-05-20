@@ -26,11 +26,6 @@ function Footer() {
                   All Flowers
                 </Link>
               </li>
-              <li>
-                <Link href="/shop/gift-sets" className="hover:text-white">
-                  Gift Sets
-                </Link>
-              </li>
             </ul>
           </div>
 
