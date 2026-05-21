@@ -27,11 +27,12 @@ function AboutPage() {
 
           <div className="overflow-hidden">
             <Image
-              src="/images/about.png"
+              src="/images/about.webp"
               alt="Fresh bouquet in a glass vase"
-              width={900}
-              height={1100}
-              className="aspect-[4/5] w-full object-cover"
+              width={600}
+              height={800}
+              loading="eager"
+              className="h-auto w-full object-cover"
             />
           </div>
         </section>

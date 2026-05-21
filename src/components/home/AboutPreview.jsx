@@ -8,7 +8,7 @@ function AboutPreview() {
         {/* Left image */}
         <div className="overflow-hidden rounded-tr-[120px] bg-[#F4F1EC]">
           <Image
-            src="/images/aboutpreview.png"
+            src="/images/aboutpreview.webp"
             alt="Florist arranging flowers"
             width={900}
             height={1000}

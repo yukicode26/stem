@@ -5,7 +5,7 @@ const shopItems = [
     name: "White Peony",
     category: "Signature Bouquets",
     price: 89,
-    image: "/images/shop/white-peony.png",
+    image: "/images/shop/white-peony.webp",
     description: "Soft seasonal bouquet with white peonies and wild greens."
   },
 
@@ -14,7 +14,7 @@ const shopItems = [
     name: "Morning Bloom",
     category: "Signature Bouquets",
     price: 95,
-    image: "/images/shop/morning-bloom.png",
+    image: "/images/shop/morning-bloom.webp",
     description: "Fresh neutral flowers inspired by quiet mornings."
   },
 
@@ -23,7 +23,7 @@ const shopItems = [
     name: "Ivory Garden",
     category: "Signature Bouquets",
     price: 110,
-    image: "/images/shop/ivory-garden.png",
+    image: "/images/shop/ivory-garden.webp",
     description: "Elegant ivory arrangement with soft textures."
   },
 
@@ -32,7 +32,7 @@ const shopItems = [
     name: "Wild Stem",
     category: "Signature Bouquets",
     price: 82,
-    image: "/images/shop/wild-stem.png",
+    image: "/images/shop/wild-stem.webp",
     description: "Natural hand-tied bouquet with organic movement."
   },
 
@@ -41,7 +41,7 @@ const shopItems = [
     name: "Quiet Blossom",
     category: "Signature Bouquets",
     price: 98,
-    image: "/images/shop/quiet-blossom.png",
+    image: "/images/shop/quiet-blossom.webp",
     description: "Minimal bouquet with calm neutral tones."
   },
 
@@ -50,7 +50,7 @@ const shopItems = [
     name: "Soft Rose",
     category: "Signature Bouquets",
     price: 92,
-    image: "/images/shop/soft-rose.png",
+    image: "/images/shop/soft-rose.webp",
     description: "Classic roses paired with delicate foliage."
   },
 
@@ -60,7 +60,7 @@ const shopItems = [
     name: "Autumn Tones",
     category: "Seasonal Collection",
     price: 105,
-    image: "/images/shop/autumn-tones.png",
+    image: "/images/shop/autumn-tones.webp",
     description: "Warm seasonal arrangement inspired by autumn leaves."
   },
 
@@ -69,7 +69,7 @@ const shopItems = [
     name: "Winter Light",
     category: "Seasonal Collection",
     price: 112,
-    image: "/images/shop/winter-light.png",
+    image: "/images/shop/winter-light.webp",
     description: "White winter flowers with silver-green accents."
   },
 
@@ -78,7 +78,7 @@ const shopItems = [
     name: "Spring Air",
     category: "Seasonal Collection",
     price: 94,
-    image: "/images/shop/spring-air.png",
+    image: "/images/shop/spring-air.webp",
     description: "Fresh pastel flowers celebrating spring."
   },
 
@@ -87,7 +87,7 @@ const shopItems = [
     name: "Summer Meadow",
     category: "Seasonal Collection",
     price: 108,
-    image: "/images/shop/summer-meadow.png",
+    image: "/images/shop/summer-meadow.webp",
     description: "Soft meadow-inspired flowers in natural tones."
   },
 
@@ -96,7 +96,7 @@ const shopItems = [
     name: "Golden Leaves",
     category: "Seasonal Collection",
     price: 99,
-    image: "/images/shop/golden-leaves.png",
+    image: "/images/shop/golden-leaves.webp",
     description: "Golden seasonal arrangement with earthy textures."
   },
 
@@ -105,7 +105,7 @@ const shopItems = [
     name: "Rainy Morning",
     category: "Seasonal Collection",
     price: 90,
-    image: "/images/shop/rainy-morning.png",
+    image: "/images/shop/rainy-morning.webp",
     description: "Gentle bouquet inspired by rainy day calmness."
   },
 
@@ -115,7 +115,7 @@ const shopItems = [
     name: "Bridal White",
     category: "Wedding & Events",
     price: 180,
-    image: "/images/shop/bridal-white.png",
+    image: "/images/shop/bridal-white.webp",
     description: "Romantic bridal bouquet with white roses."
   },
 
@@ -124,7 +124,7 @@ const shopItems = [
     name: "Ceremony Bloom",
     category: "Wedding & Events",
     price: 210,
-    image: "/images/shop/ceremony-bloom.png",
+    image: "/images/shop/ceremony-bloom.webp",
     description: "Elegant floral styling for modern ceremonies."
   },
 
@@ -133,7 +133,7 @@ const shopItems = [
     name: "Silk Ribbon",
     category: "Wedding & Events",
     price: 195,
-    image: "/images/shop/silk-ribbon.png",
+    image: "/images/shop/silk-ribbon.webp",
     description: "Soft bouquet finished with flowing silk ribbon."
   },
 
@@ -142,7 +142,7 @@ const shopItems = [
     name: "Moonlight Table",
     category: "Wedding & Events",
     price: 240,
-    image: "/images/shop/moonlight-table.png",
+    image: "/images/shop/moonlight-table.webp",
     description: "Minimal table arrangement with candlelight mood."
   },
 
@@ -151,7 +151,7 @@ const shopItems = [
     name: "Classic Ivory",
     category: "Wedding & Events",
     price: 220,
-    image: "/images/shop/classic-ivory.png",
+    image: "/images/shop/classic-ivory.webp",
     description: "Timeless ivory flowers for intimate weddings."
   },
 
@@ -160,7 +160,7 @@ const shopItems = [
     name: "Evening Garden",
     category: "Wedding & Events",
     price: 230,
-    image: "/images/shop/evening-garden.png",
+    image: "/images/shop/evening-garden.webp",
     description: "Lush floral arrangement inspired by evening gardens."
   },
 
@@ -170,7 +170,7 @@ const shopItems = [
     name: "Olive Tree",
     category: "Indoor Plants",
     price: 120,
-    image: "/images/shop/olive-tree.png",
+    image: "/images/shop/olive-tree.webp",
     description: "Minimal indoor olive tree in ceramic pot."
   },
 
@@ -179,7 +179,7 @@ const shopItems = [
     name: "Peace Lily",
     category: "Indoor Plants",
     price: 68,
-    image: "/images/shop/peace-lily.png",
+    image: "/images/shop/peace-lily.webp",
     description: "Elegant peace lily perfect for calm interiors."
   },
 
@@ -188,7 +188,7 @@ const shopItems = [
     name: "Rubber Plant",
     category: "Indoor Plants",
     price: 75,
-    image: "/images/shop/rubber-plant.png",
+    image: "/images/shop/rubber-plant.webp",
     description: "Deep green rubber plant with sculptural leaves."
   },
 
@@ -197,7 +197,7 @@ const shopItems = [
     name: "Monstera",
     category: "Indoor Plants",
     price: 89,
-    image: "/images/shop/monstera.png",
+    image: "/images/shop/monstera.webp",
     description: "Modern tropical plant with iconic split leaves."
   },
 
@@ -206,7 +206,7 @@ const shopItems = [
     name: "Mini Fern",
     category: "Indoor Plants",
     price: 45,
-    image: "/images/shop/mini-fern.png",
+    image: "/images/shop/mini-fern.webp",
     description: "Small fern arrangement for shelves and desks."
   },
 
@@ -215,7 +215,7 @@ const shopItems = [
     name: "Desert Cactus",
     category: "Indoor Plants",
     price: 52,
-    image: "/images/shop/desert-cactus.png",
+    image: "/images/shop/desert-cactus.webp",
     description: "Minimal cactus with warm earthy tones."
   },
 
@@ -225,7 +225,7 @@ const shopItems = [
     name: "Ceramic Vase",
     category: "Vases & Objects",
     price: 58,
-    image: "/images/shop/ceramic-vase.png",
+    image: "/images/shop/ceramic-vase.webp",
     description: "Hand-finished ceramic vase with soft texture."
   },
 
@@ -234,7 +234,7 @@ const shopItems = [
     name: "Stone Bowl",
     category: "Vases & Objects",
     price: 64,
-    image: "/images/shop/stone-bowl.png",
+    image: "/images/shop/stone-bowl.webp",
     description: "Natural stone bowl for floral styling."
   },
 
@@ -243,7 +243,7 @@ const shopItems = [
     name: "Glass Vessel",
     category: "Vases & Objects",
     price: 72,
-    image: "/images/shop/glass-vessel.png",
+    image: "/images/shop/glass-vessel.webp",
     description: "Clear glass vessel with minimal silhouette."
   },
 
@@ -252,7 +252,7 @@ const shopItems = [
     name: "Linen Wrap",
     category: "Vases & Objects",
     price: 35,
-    image: "/images/shop/linen-wrap.png",
+    image: "/images/shop/linen-wrap.webp",
     description: "Soft linen wrap for bouquets and gifts."
   },
 
@@ -261,7 +261,7 @@ const shopItems = [
     name: "Clay Pot",
     category: "Vases & Objects",
     price: 48,
-    image: "/images/shop/clay-pot.png",
+    image: "/images/shop/clay-pot.webp",
     description: "Warm clay pot designed for indoor plants."
   },
 
@@ -270,7 +270,7 @@ const shopItems = [
     name: "Wooden Tray",
     category: "Vases & Objects",
     price: 55,
-    image: "/images/shop/wooden-tray.png",
+    image: "/images/shop/wooden-tray.webp",
     description: "Minimal wooden tray for home styling."
   }
 ];

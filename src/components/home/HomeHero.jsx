@@ -45,7 +45,7 @@ function HomeHero() {
 
         <div className="overflow-hidden rounded-tl-[250px]">
           <Image
-            src="/images/hero.png"
+            src="/images/hero.webp"
             alt="Minimal flower arrangement"
             width={700}
             height={800}

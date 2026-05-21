@@ -11,7 +11,12 @@ function PageHeader({ title }) {
         {/* Decorative flower image */}
 
         <div className=" hidden  md:block">
-          <Image src="/images/flower1.png" alt="Flower" width={320} height={220} className="object-contain" loading="lazy" />
+          <Image src="/images/flower1.webp" 
+          alt="Flower" 
+          width={320} 
+          height={220} 
+          className="h-auto w-full object-cover" 
+          loading="eager" />
         </div>
       </div>
     </section>

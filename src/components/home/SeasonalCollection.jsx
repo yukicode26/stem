@@ -19,7 +19,7 @@ function SeasonalCollection() {
         <div className="carousel carousel-center w-full gap-6 overflow-x-auto">
           <div className="carousel-item">
             <Image
-              src="/images/shop/soft-rose.png"
+              src="/images/shop/soft-rose.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -29,7 +29,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/autumn-tones.png"
+              src="/images/shop/autumn-tones.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -39,7 +39,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/winter-light.png"
+              src="/images/shop/winter-light.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -49,7 +49,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/spring-air.png"
+              src="/images/shop/spring-air.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -59,7 +59,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/summer-meadow.png"
+              src="/images/shop/summer-meadow.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -69,7 +69,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/golden-leaves.png"
+              src="/images/shop/golden-leaves.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
@@ -79,7 +79,7 @@ function SeasonalCollection() {
 
           <div className="carousel-item">
             <Image
-              src="/images/shop/rainy-morning.png"
+              src="/images/shop/rainy-morning.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}

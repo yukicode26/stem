@@ -15,7 +15,12 @@ function ShopId() {
   return (
     <div className="mx-auto grid max-w-6xl gap-12 px-8 py-16 md:grid-cols-2">
       <div className="border p-6">
-        <Image src={shop.image} alt={shop.name} width={500} height={600} className="aspect-[4/5] w-full object-cover" />
+        <Image 
+        src={shop.image} 
+        alt={shop.name} 
+        width={500} 
+        height={600} 
+        className="aspect-4/5 w-full object-cover" />
       </div>
       <div className="flex flex-col justify-center">
         <p className="mb-4 text-sm uppercase tracking-[0.25em] text-muted">{shop.category}</p>

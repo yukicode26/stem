@@ -76,7 +76,7 @@ function ContactPage() {
           <div className="flex items-center justify-center">
             <div className="overflow-hidden bg-cream">
               <Image
-                src="/images/contact.png"
+                src="/images/contact.webp"
                 alt="Flower arrangement"
                 width={500}
                 height={600}

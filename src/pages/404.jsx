@@ -37,7 +37,7 @@ function NotFoundPage() {
   {/* Image */}
   <div className="mt-16 lg:mt-0">
     <Image
-      src="/images/notFound.png"
+      src="/images/notFound.webp"
       alt="Flower arrangement"
       width={1200}
       height={1200}

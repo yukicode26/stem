@@ -73,7 +73,7 @@ function DeliveryPage() {
           <div className="flex items-center justify-center">
             <div className="overflow-hidden  bg-cream">
               <Image
-                src="/images/delivery.png"
+                src="/images/delivery.webp"
                 alt="Flower bouquet"
                 width={500}
                 height={600}
