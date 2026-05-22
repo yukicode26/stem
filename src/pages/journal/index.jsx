@@ -24,7 +24,7 @@ function JournalPage() {
                   alt={item.title}
                   width={800}
                   height={1000}
-                  className="aspect-[4/5] w-full object-cover transition duration-300 group-hover:opacity-80"
+                  className="aspect-4/5 w-full object-cover transition duration-300 group-hover:opacity-80"
                 />
 
                 <p className="mt-5 text-sm text-muted">
@@ -39,7 +39,7 @@ function JournalPage() {
                   {item.content}
                 </p>
 
-                <span className="mt-6 inline-block text-sm uppercase tracking-[0.2em] underline underline-offset-4">
+                <span className="mt-6 inline-block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-4">
                   Read more
                 </span>
               </Link>

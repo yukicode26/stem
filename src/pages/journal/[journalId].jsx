@@ -30,7 +30,7 @@ function JournalId() {
     <p className="mt-10 leading-8 text-muted">{journal.content}</p>
     <Link
       href="/journal"
-      className="mt-12 inline-block text-sm uppercase tracking-[0.2em] underline underline-offset-4"
+      className="mt-12 inline-block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-4"
     >
       Back to Journal
     </Link>

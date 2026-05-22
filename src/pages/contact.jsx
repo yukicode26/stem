@@ -14,7 +14,7 @@ function ContactPage() {
       <PageHeader title="Contact" />
 
       <main className="px-6 py-16">
-        <section className="mx-auto grid max-w-5xl gap-12 p-8 md:grid-cols-2 md:p-12">
+        <section className="mx-auto grid max-w-5xl gap-12 border p-8 md:grid-cols-2 md:p-12">
 
           {/* Left Content */}
           <div>
@@ -25,8 +25,8 @@ function ContactPage() {
             <div className="space-y-10">
 
               {/* Email */}
-              <div className="flex items-start gap-5 py-8">
-                <HiOutlineEnvelope className="mt-1 text-4xl text-sage-dark" />
+              <div className="flex items-start gap-5 pt-8">
+                <HiOutlineEnvelope className="mt-1 text-4xl text-accent" />
 
                 <div>
                   <h3 className="mb-2 text-lg font-medium">
@@ -34,14 +34,14 @@ function ContactPage() {
                   </h3>
 
                   <p className="leading-7 text-muted">
-                    hello@stemstudio.com
+                    hello@stem.com
                   </p>
                 </div>
               </div>
 
               {/* Phone */}
               <div className="flex items-start gap-5">
-                <HiOutlinePhone className="mt-1 text-4xl text-sage-dark" />
+                <HiOutlinePhone className="mt-1 text-4xl text-accent" />
 
                 <div>
                   <h3 className="mb-2 text-lg font-medium">
@@ -56,7 +56,7 @@ function ContactPage() {
 
               {/* Location */}
               <div className="flex items-start gap-5">
-                <HiOutlineMapPin className="mt-1 text-4xl text-sage-dark" />
+                <HiOutlineMapPin className="mt-1 text-4xl text-accent" />
 
                 <div>
                   <h3 className="mb-2 text-lg font-medium">
@@ -80,7 +80,7 @@ function ContactPage() {
                 alt="Flower arrangement"
                 width={500}
                 height={600}
-                className="h-full object-cover"
+                className="aspect-4/5 object-cover"
               />
             </div>
           </div>

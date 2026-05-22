@@ -10,7 +10,7 @@ function AboutPage() {
         {/* Story */}
         <section className="mx-auto grid max-w-6xl items-center gap-16 px-6 py-20 md:grid-cols-2 md:py-28">
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-muted">
+            <p className="text-sm uppercase tracking-[0.3em] text-accent">
               Our Story
             </p>
 
@@ -19,7 +19,7 @@ function AboutPage() {
             </h1>
 
             <p className="mt-8 max-w-md leading-8 text-muted">
-              Stem Studio was founded in Melbourne with a love for natural beauty
+              Stem. was founded in Melbourne with a love for natural beauty
               and thoughtful design. We create soft, seasonal arrangements for
               everyday spaces, gifts, and special occasions.
             </p>
@@ -32,7 +32,7 @@ function AboutPage() {
               width={600}
               height={800}
               loading="eager"
-              className="h-auto w-full object-cover"
+              className="aspect-4/5 object-cover"
             />
           </div>
         </section>

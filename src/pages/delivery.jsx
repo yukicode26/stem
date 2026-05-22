@@ -14,7 +14,7 @@ function DeliveryPage() {
       <PageHeader title="Delivery Info" />
 
       <main className="px-6 py-16">
-        <section className="mx-auto grid max-w-5xl gap-12 p-8 md:grid-cols-2 md:p-12">
+        <section className="mx-auto grid max-w-5xl gap-12 p-8 md:grid-cols-2 md:p-12 border border-secondary-light">
 
           {/* Left Content */}
           <div>
@@ -23,14 +23,14 @@ function DeliveryPage() {
 
               {/* Delivery Areas */}
               <div className="flex items-start gap-5">
-                <HiOutlineMapPin className="mt-1 text-4xl text-sage-dark" />
+                <HiOutlineMapPin className="mt-1 text-4xl text-accent" />
 
                 <div>
-                  <h3 className="mb-2 text-lg font-medium">
+                  <h3 className="mb-2 text-2xl font-medium">
                     Delivery Areas
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     We deliver across Melbourne and surrounding suburbs.
                   </p>
                 </div>
@@ -38,10 +38,10 @@ function DeliveryPage() {
 
               {/* Delivery Times */}
               <div className="flex items-start gap-5">
-                <HiOutlineClock className="mt-1 text-4xl text-sage-dark" />
+                <HiOutlineClock className="mt-1 text-4xl text-accent" />
 
                 <div>
-                  <h3 className="mb-2 text-lg font-medium">
+                  <h3 className="mb-2 text-2xl font-medium">
                     Delivery Times
                   </h3>
 
@@ -53,14 +53,14 @@ function DeliveryPage() {
 
               {/* Delivery Fees */}
               <div className="flex items-start gap-5">
-                <HiOutlineTruck className="mt-1 text-4xl text-sage-dark" />
+                <HiOutlineTruck className="mt-1 text-4xl text-accent" />
 
                 <div>
-                  <h3 className="mb-2 text-lg font-medium">
+                  <h3 className="mb-2 text-2xl font-medium">
                     Delivery Fees
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     Flat rate of $25. Free delivery on orders over $70.
                   </p>
                 </div>
@@ -77,7 +77,7 @@ function DeliveryPage() {
                 alt="Flower bouquet"
                 width={500}
                 height={600}
-                className="h-full object-cover"
+                className="aspect-4/5 object-cover"
               />
             </div>
           </div>

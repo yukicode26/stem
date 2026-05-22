@@ -22,7 +22,7 @@ function AboutPreview() {
             About Stem.
           </p>
 
-          <h2 className="mt-5 max-w-xl font-serif text-4xl leading-tight text-[#2B2B2B] md:text-5xl">
+          <h2 className="mt-5 max-w-xl text-4xl leading-tight text-[#2B2B2B] md:text-5xl">
             Quiet flowers,
             <br />
             thoughtfully made.
@@ -40,7 +40,7 @@ function AboutPreview() {
 
           <Link
             href="/about"
-            className="mt-10 inline-block  border border-[#D8D2C7] px-8 py-4 text-sm uppercase tracking-[0.18em] text-[#2B2B2B] transition hover:bg-[#F4F1EC]"
+            className="mt-10 inline-block  border border-secondary-light px-8 py-4 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary"
           >
             Learn More
           </Link>

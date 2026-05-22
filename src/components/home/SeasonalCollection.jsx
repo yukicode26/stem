@@ -5,13 +5,13 @@ function SeasonalCollection() {
   return (
     <>
       {/* daisyUI */}
-      <section className="px-30 py-24">
+      <section className="px-36 py-24">
         <div className="mb-12 flex items-end justify-between">
           <div>
-            <h2 className="mt-4 font-serif text-4xl text-sub">Seasonal Collection</h2>
+            <h2 className="mt-4 text-4xl text-sub">Seasonal Collection</h2>
           </div>
 
-          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] text-muted hover:text-sub">
+          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
             View All
           </Link>
         </div>
@@ -83,7 +83,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="aspect-4/5 h-auto object-cover"
             />
           </div>
         </div>

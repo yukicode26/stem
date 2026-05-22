@@ -3,23 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/common/PageHeader";
 
-function ShopPage() {
+function ShopPage({items}) {
   return (
     <>
       <PageHeader title="Shop" />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:px-10 lg:px-20">
+      <main className="mx-auto max-w-7xl px-6 py-16 md:px-10 lg:px-20">
         {/* Product grid */}
-        <section className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-          {shopItems.map((item) => (
-            <article key={item.id} className="group border p-4 mx-auto w-full max-w-80">
+        <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {items.map((item) => (
+            <article key={item.id} className="group border border-secondary-light p-4 mx-auto w-full max-w-80">
               <Link href={`/shop/${item.id}`}>
                 <div className="overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.name}
-                    width={400}
+                    width={600}
                     height={500}
-                    className="aspect-[4/5] h-auto w-full object-cover transition duration-500 group-hover:scale-105"
+                    className="aspect-4/5 object-cover transition duration-500 group-hover:scale-105"
                   />
                 </div>
 
@@ -35,6 +35,14 @@ function ShopPage() {
       </main>
     </>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      items: shopItems,
+    },
+  };
 }
 
 export default ShopPage;

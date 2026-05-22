@@ -29,9 +29,9 @@ function FaqPage() {
                 onClick={() => setOpenId(openId === item.id ? null : item.id)}
                 className="w-full text-left"
               >
-                <h2 className="text-xl">
+                <p className="text-xl">
                   {item.question}
-                </h2>
+                </p>
               </button>
               {/* show answer if openId matches item.id */}
               {openId === item.id && (

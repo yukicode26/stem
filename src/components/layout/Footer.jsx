@@ -8,8 +8,8 @@ function Footer() {
         <div className="grid gap-6 md:grid-cols-5">
           {/* Brand */}
           <div>
-            <Link href={"/"}><h2 className="font-serif text-2xl tracking-wide">stem.</h2></Link>
-            <p className="mt-5 max-w-xs text-sm leading-7 text-secondary">
+            <Link href={"/"}><h2 className="text-4xl tracking-wide">stem.</h2></Link>
+            <p className="mt-2 max-w-xs text-sm">
               To make every moment bloom
             </p>
           </div>

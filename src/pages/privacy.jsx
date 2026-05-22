@@ -5,24 +5,24 @@ function PrivacyPage() {
     <>
       <PageHeader title="Privacy Policy" />
 
-      <main className="mx-auto max-w-3xl px-6 py-16 text-sub md:px-8">
-        <section className="space-y-10 leading-8">
+      <main className="mx-auto max-w-3xl px-6 py-12 md:px-8 border border-secondary-light my-12">
+        <section className="space-y-10">
           <div>
-            <p className="text-muted">
+            <p>
               We respect your privacy and are committed to protecting your personal information.
             </p>
 
-            <p className="mt-4 text-muted">
+            <p className="mt-4">
               This website may collect limited personal information when you contact us, place an order, or subscribe to
               updates.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">Information We Collect</h2>
-            <p className="text-muted">We may collect:</p>
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">Information We Collect</h2>
+            <p>We may collect:</p>
 
-            <ul className="mt-3 ml-6 list-disc space-y-2 text-muted">
+            <ul className="mt-3 ml-6 list-disc space-y-2">
               <li>Name</li>
               <li>Email address</li>
               <li>Phone number</li>
@@ -32,10 +32,10 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">How We Use Your Information</h2>
-            <p className="text-muted">Your information may be used to:</p>
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">How We Use Your Information</h2>
+            <p>Your information may be used to:</p>
 
-            <ul className="mt-3 ml-6 list-disc space-y-2 text-muted">
+            <ul className="mt-3 ml-6 list-disc space-y-2">
               <li>Process orders</li>
               <li>Respond to enquiries</li>
               <li>Improve our website and services</li>
@@ -44,30 +44,30 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">Cookies</h2>
-            <p className="text-muted">
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">Cookies</h2>
+            <p>
               This website may use cookies and analytics tools to improve user experience and website performance.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">Third-Party Services</h2>
-            <p className="text-muted">
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">Third-Party Services</h2>
+            <p>
               We may use trusted third-party services such as Google Analytics to help understand website traffic and
               usage.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">Data Security</h2>
-            <p className="text-muted">
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">Data Security</h2>
+            <p>
               We take reasonable steps to protect your personal information and keep it secure.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-lg font-medium tracking-wide">Contact Us</h2>
-            <p className="text-muted">
+            <h2 className="mb-3 text-2xl font-medium tracking-wide">Contact Us</h2>
+            <p>
               If you have any questions about this Privacy Policy, please contact us through the Contact page.
             </p>
           </div>

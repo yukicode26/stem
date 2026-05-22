@@ -12,7 +12,7 @@ function NotFoundPage() {
       Error
     </p>
 
-    <h1 className="font-serif text-32 leading-none md:text-40 lg:text-48">
+    <h1 className="text-32 leading-none md:text-40 lg:text-48">
       404
     </h1>
 
