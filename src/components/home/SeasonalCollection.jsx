@@ -5,25 +5,25 @@ function SeasonalCollection() {
   return (
     <>
       {/* daisyUI */}
-      <section className="px-36 py-24">
-        <div className="mb-12 flex items-end justify-between">
+      <section className="px-6 py-16 md:px-12 lg:px-36 lg:py-24">
+        <div className="mb-10 flex items-end justify-between gap-6">
           <div>
-            <h2 className="mt-4 text-4xl text-sub">Seasonal Collection</h2>
+            <h2 className="text-2xl md:text-3xl md:text-4xl">Seasonal Collection</h2>
           </div>
 
-          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
+          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light md:text-sm">
             View All
           </Link>
         </div>
 
-        <div className="carousel carousel-center w-full gap-6 overflow-x-auto">
+        <div className="carousel carousel-center w-full gap-6 overflow-x-auto mid:gap-6">
           <div className="carousel-item">
             <Image
               src="/images/shop/soft-rose.webp"
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -33,7 +33,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -43,7 +43,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -53,7 +53,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -63,7 +63,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -73,7 +73,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
 
@@ -83,7 +83,7 @@ function SeasonalCollection() {
               alt="Seasonal flowers"
               width={340}
               height={500}
-              className="aspect-4/5 h-auto object-cover"
+              className="h-96 w-64 object-cover md:h-125 md:w-85"
             />
           </div>
         </div>

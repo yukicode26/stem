@@ -4,8 +4,8 @@ function PrivacyPage() {
   return (
     <>
       <PageHeader title="Privacy Policy" />
-
-      <main className="mx-auto max-w-3xl px-6 py-12 md:px-8 border border-secondary-light my-12">
+<div className="px-6 md:px-12 lg:px-24">
+      <main className="mx-auto my-8 max-w-3xl border border-secondary-light px-8 py-10 md:my-12 md:px-14 md:py-14 lg:px-20">
         <section className="space-y-10">
           <div>
             <p>
@@ -19,10 +19,10 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">Information We Collect</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">Information We Collect</h2>
             <p>We may collect:</p>
 
-            <ul className="mt-3 ml-6 list-disc space-y-2">
+            <ul className="mt-3 ml-5 list-disc space-y-2">
               <li>Name</li>
               <li>Email address</li>
               <li>Phone number</li>
@@ -73,6 +73,7 @@ function PrivacyPage() {
           </div>
         </section>
       </main>
+      </div>
     </>
   );
 }

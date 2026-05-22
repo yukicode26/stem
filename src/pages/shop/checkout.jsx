@@ -6,7 +6,8 @@ function CheckoutPage() {
   const router = useRouter();
   
   return (
-    <div className="max-w-xl mx-auto my-12">
+    <div className="px-6 py-12 md:px-10 md:py-16">
+    <div className="max-w-xl mx-auto my-12 border p-8">
       <h1 className="text-center text-4xl my-8">Checkout</h1>
       <form className="flex flex-col gap-6 ">
         <label className="flex flex-col gap-2">
@@ -46,6 +47,7 @@ function CheckoutPage() {
         </button>
         </div>
       </form>
+    </div>
     </div>
   );
 }

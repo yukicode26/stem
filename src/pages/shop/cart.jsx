@@ -26,7 +26,7 @@ function CartPage() {
       <div className="text-center">
         <h1 className="py-10 text-4xl">Your Cart</h1>
         <p className="text-xl">Your cart is empty.</p>
-        <Link href="/shop" className="w-fit mt-10 py-3 px-6 inline-block border">
+        <Link href="/shop" className="w-fit my-10 py-3 px-6 inline-block border">
           Back to Shop
         </Link>
       </div>
@@ -34,16 +34,16 @@ function CartPage() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-8 py-16">
+    <div className="mx-auto max-w-4xl px-6 py-12 md:px-8 md:py-16">
       <h1 className="text-4xl">Your Cart</h1>
 
-      <div className="mt-10 flex gap-8 border border-secondary-light p-6">
+      <div className="mt-10 flex flex-col gap-6 border border-secondary-light p-4 md:flex-row md:gap-8 md:p-6">
         <Image
           src={cartItem.image}
           alt={cartItem.name}
           width={200}
           height={200}
-          className="aspect-square object-cover"
+          className="h-[220px] w-full object-cover md:h-[200px] md:w-[200px]"
         />
         <div>
           <h2 className="text-3xl">{cartItem.name}</h2>
@@ -84,7 +84,7 @@ function CartPage() {
       </div>
 
       <div className="flex justify-end">
-        <Link href="/shop/checkout" className="mt-8 text-sm transition inline-block border px-8 py-4 uppercase tracking-[0.2em] hover:bg-accent hover:text-primary">
+        <Link href="/shop/checkout" className="mt-8 inline-block w-full border px-8 py-4 text-center text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary sm:w-fit">
           Checkout
         </Link>
       </div>
