@@ -14,7 +14,7 @@ function ContactPage() {
       <PageHeader title="Contact" />
 
       <main className="px-6 py-16">
-        <section className="mx-auto grid max-w-5xl gap-12 border p-8 md:grid-cols-2 md:p-12">
+        <section className="mx-auto grid max-w-5xl gap-12 border border-secondary-light p-8 md:grid-cols-2 md:p-12">
 
           {/* Left Content */}
           <div>

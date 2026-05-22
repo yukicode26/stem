@@ -17,7 +17,7 @@ function JournalPage() {
 
         <section className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {journalItems.map((item) => (
-            <article key={item.id} className="group border p-6">
+            <article key={item.id} className="group border border-secondary-light p-6">
               <Link href={`/journal/${item.id}`}>
                 <Image
                   src={item.image}
