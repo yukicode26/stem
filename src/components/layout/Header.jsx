@@ -56,32 +56,32 @@ function Header() {
             {/* Desktop menu */}
             <ul className="menu menu-horizontal hidden px-1 text-lg lg:flex ">
               <li>
-                <Link href="/" className="hover:text-accent">
+                <Link href="/" className="hover:bg-transparent hover:text-accent">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-accent">
+                <Link href="/about" className="hover:bg-transparent hover:text-accent">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/shop" className="hover:text-accent">
+                <Link href="/shop" className="hover:bg-transparent hover:text-accent">
                   Shop
                 </Link>
               </li>
               <li>
-                <Link href="/journal" className="hover:text-accent">
+                <Link href="/journal" className="hover:hover:bg-transparent text-accent">
                   Journal
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-accent">
+                <Link href="/contact" className="hover:bg-transparent hover:bg-transparent hover:text-accent">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/shop/cart" className="flex items-center gap-2 hover:text-accent">
+                <Link href="/shop/cart" className="flex items-center gap-2 hover:bg-transparent hover:text-accent">
                   <HiOutlineShoppingBag size={20} />
                   <span>Cart</span>
                 </Link>
