@@ -18,7 +18,7 @@ function JournalId() {
   return (
     <>
   <main className="mx-auto max-w-3xl px-6 py-16">
-    <p className="text-sm uppercase tracking-[0.3em] text-muted">{journal.date}</p>
+    <p className="text-sm uppercase tracking-[0.3em]">{journal.date}</p>
     <h1 className="mt-4 text-4xl font-light leading-tight md:text-5xl">{journal.title}</h1>
     <Image
       src={journal.image}
@@ -27,7 +27,7 @@ function JournalId() {
       height={1500}
       className="mt-10 aspect-[4/5] w-full object-cover"
     />
-    <p className="mt-10 leading-8 text-muted">{journal.content}</p>
+    <p className="mt-10 leading-8">{journal.content}</p>
     <Link
       href="/journal"
       className="mt-12 inline-block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-4"

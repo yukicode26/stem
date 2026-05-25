@@ -27,7 +27,7 @@ function JournalPage() {
                   className="aspect-4/5 w-full object-cover transition duration-300 group-hover:opacity-80"
                 />
 
-                <p className="mt-5 text-sm text-muted">
+                <p className="mt-5 text-sm">
                   {item.date}
                 </p>
 
@@ -35,7 +35,7 @@ function JournalPage() {
                   {item.title}
                 </h2>
 
-                <p className="mt-4 line-clamp-3 leading-7 text-muted">
+                <p className="mt-4 line-clamp-3 leading-7">
                   {item.content}
                 </p>
 

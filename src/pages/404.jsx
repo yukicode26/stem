@@ -4,11 +4,11 @@ import Image from "next/image";
 function NotFoundPage() {
   return (
     <>
-<div className="flex min-h-screen flex-col items-center justify-center px-8 py-8 text-sub lg:flex-row lg:gap-24">
+<div className="flex min-h-screen flex-col items-center justify-center px-8 py-8 lg:flex-row lg:gap-24">
   
   {/* Text */}
   <div className="text-center lg:text-left">
-    <p className="mb-6 text-base uppercase tracking-[0.4em] text-muted">
+    <p className="mb-6 text-base uppercase tracking-[0.4em]">
       Error
     </p>
 
@@ -16,18 +16,18 @@ function NotFoundPage() {
       404
     </h1>
 
-    <h2 className="mt-6 max-w-2xl text-4xl leading-tight text-muted md:text-5xl">
+    <h2 className="mt-6 max-w-2xl text-4xl leading-tight md:text-5xl">
       Page not found.
     </h2>
 
-    <p className="mt-8 max-w-xl text-lg leading-9 text-muted md:text-xl">
+    <p className="mt-8 max-w-xl text-lg leading-9 md:text-xl">
       The page you are looking for may have been moved or no longer exists.
     </p>
 
     <div className="mt-12">
       <Link
         href="/"
-        className="border border-sub px-10 py-5 text-lg transition duration-300 hover:bg-sub hover:text-main"
+        className="border border-s-secondary-light px-10 py-5 text-lg transition duration-300 hover:bg-accent hover:text-primary"
       >
         Return to Home
       </Link>

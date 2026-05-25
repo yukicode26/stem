@@ -23,7 +23,6 @@ function HomeHero() {
           calm homes, and special days.
         </p>
 
-        {/* CTA buttons */}
         <div className="mt-8 flex flex-wrap gap-4 md:mt-10">
           <Link
             href="/shop"
@@ -34,7 +33,7 @@ function HomeHero() {
 
           <Link
             href="/about"
-            className="border border-secondary-light px-6 py-3 text-xs uppercase tracking-[0.2em] text-sub transition hover:bg-accent-light md:px-8 md:py-4 md:text-sm"
+            className="border border-secondary-light px-6 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-accent-light md:px-8 md:py-4 md:text-sm"
           >
             Our Story
           </Link>

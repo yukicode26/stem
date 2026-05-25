@@ -33,7 +33,7 @@ function ContactPage() {
                     Email
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     hello@stem.com
                   </p>
                 </div>
@@ -48,7 +48,7 @@ function ContactPage() {
                     Phone
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     +61 400 123 456
                   </p>
                 </div>
@@ -63,7 +63,7 @@ function ContactPage() {
                     Studio
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     Melbourne, Australia
                   </p>
                 </div>

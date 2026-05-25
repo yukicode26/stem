@@ -2,13 +2,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Manrope, DM_Serif_Display } from "next/font/google";
 
-// const inter = Inter({
-//   subsets: ["latin"],
-//   weight: ["400", "500", "600", "700"],
-//   style: ["normal"],
-//   variable: "--font-body",
-// });
-
 const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
   weight: "400",

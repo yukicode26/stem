@@ -45,7 +45,7 @@ function DeliveryPage() {
                     Delivery Times
                   </h3>
 
-                  <p className="leading-7 text-muted">
+                  <p className="leading-7">
                     Same day delivery for orders placed before 2pm.
                   </p>
                 </div>

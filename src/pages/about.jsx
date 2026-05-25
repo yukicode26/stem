@@ -14,11 +14,11 @@ function AboutPage() {
               Our Story
             </p>
 
-            <h1 className="mt-5 text-4xl font-light leading-tight text-sub md:text-5xl">
+            <h1 className="mt-5 text-4xl font-light leading-tight md:text-5xl">
               Flowers for quiet, beautiful moments.
             </h1>
 
-            <p className="mt-8 max-w-md leading-8 text-muted">
+            <p className="mt-8 max-w-md leading-8">
               Stem. was founded in Melbourne with a love for natural beauty
               and thoughtful design. We create soft, seasonal arrangements for
               everyday spaces, gifts, and special occasions.

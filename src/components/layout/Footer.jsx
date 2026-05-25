@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaInstagram, FaPinterestP } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -8,10 +9,10 @@ function Footer() {
         <div className="grid gap-6 md:grid-cols-5">
           {/* Brand */}
           <div>
-            <Link href={"/"}><h2 className="text-4xl tracking-wide">stem.</h2></Link>
-            <p className="mt-2 max-w-xs text-sm">
-              To make every moment bloom
-            </p>
+            <Link href={"/"}>
+              <h2 className="text-4xl tracking-wide">stem.</h2>
+            </Link>
+            <p className="mt-2 max-w-xs text-sm">To make every moment bloom</p>
           </div>
 
           {/* Empty spacer column */}
@@ -61,6 +62,27 @@ function Footer() {
                 </a>
               </li>
               <li>Melbourne, Australia</li>
+              <li>
+                <div className="flex gap-5 text-3xl">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition hover:opacity-70"
+                  >
+                    <FaInstagram />
+                  </a>
+
+                  <a
+                    href="https://pinterest.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition hover:opacity-70"
+                  >
+                    <FaPinterestP />
+                  </a>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
