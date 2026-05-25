@@ -71,12 +71,12 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/journal" className="hover:bg-transparent text-accent">
+                <Link href="/journal" className="hover:bg-transparent hover:text-accent">
                   Journal
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:bg-transparent hover:bg-transparent hover:text-accent">
+                <Link href="/contact" className="hover:bg-transparent hover:text-accent">
                   Contact
                 </Link>
               </li>
