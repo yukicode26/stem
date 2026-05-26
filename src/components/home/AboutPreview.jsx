@@ -18,7 +18,7 @@ function AboutPreview() {
 
         {/* Right content */}
         <div className="lg:pl-8">
-          <p className="text-xs uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
+          <p className="text-sm uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
             About Stem.
           </p>
 
@@ -40,7 +40,7 @@ function AboutPreview() {
 
           <Link
             href="/about"
-            className="mt-8 inline-block border border-secondary-light px-6 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:mt-10 md:px-8 md:py-4 md:text-sm"
+            className="mt-8 inline-block border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:mt-10 md:px-8 md:py-4 md:text-sm"
           >
             Learn More
           </Link>

@@ -6,7 +6,7 @@ function HomeHero() {
     <section className="mx-auto grid min-h-[80vh] max-w-7xl items-center gap-12 px-6 py-14 md:px-12 md:py-20 lg:grid-cols-2 lg:px-16">
       {/* Left content */}
       <div className="max-w-xl">
-        <p className="mb-5 text-xs uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
+        <p className="mb-5 text-sm uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
           Melbourne Florist
         </p>
 
@@ -26,14 +26,14 @@ function HomeHero() {
         <div className="mt-8 flex flex-wrap gap-4 md:mt-10">
           <Link
             href="/shop"
-            className="border border-transparent px-6 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:px-8 md:py-4 md:text-sm"
+            className="border border-transparent px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:px-8 md:py-4 md:text-sm"
           >
             Shop Now
           </Link>
 
           <Link
             href="/about"
-            className="border border-secondary-light px-6 py-3 text-xs uppercase tracking-[0.2em] transition hover:bg-accent-light md:px-8 md:py-4 md:text-sm"
+            className="border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent-light md:px-8 md:py-4 md:text-sm"
           >
             Our Story
           </Link>

@@ -12,7 +12,7 @@ function ShopPage({items}) {
         <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <article key={item.id} className="group mx-auto w-full max-w-sm border border-secondary-light p-4">
-              <Link href={`/shop/${item.id}`}>
+              <Link href={`/shop/${item.id}`} aria-label={`View ${item.name}`}>
                 <div className="overflow-hidden">
                   <Image
                     src={item.image}

@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="bg-primary px-6 py-5 text-secondary md:px-8">
       <div className="mx-auto flex max-w-7xl items-center justify-between lg:flex-col">
-        <Link href="/">
+        <Link href="/" aria-label="Home page">
           <h2 className="text-4xl md:text-5xl">stem.</h2>
         </Link>
         {/* daisyUI */}
@@ -45,7 +45,7 @@ function Header() {
                   <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link href="/shop/cart" className="flex items-center gap-2">
+                  <Link href="/shop/cart" className="flex items-center gap-2" area-label="Shopping cart">
                     <HiOutlineShoppingBag size={20} />
                     <span>Cart</span>
                   </Link>
@@ -81,7 +81,7 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/shop/cart" className="flex items-center gap-2 hover:bg-transparent hover:text-accent">
+                <Link href="/shop/cart" className="flex items-center gap-2 hover:bg-transparent hover:text-accent" aria-label="Shopping cart">
                   <HiOutlineShoppingBag size={20} />
                   <span>Cart</span>
                 </Link>
