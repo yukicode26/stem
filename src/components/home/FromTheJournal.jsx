@@ -23,6 +23,7 @@ function FromTheJournal() {
               alt="Seasonal flowers"
               width={900}
               height={1000}
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="aspect-4/5 w-full h-auto object-cover lg:h-full"
               loading="eager"
             />

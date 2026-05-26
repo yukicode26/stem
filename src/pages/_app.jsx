@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <meta name="keywords" content="flowers, florist, bouquet, floral design, online flower shop" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
+        <meta name="google-site-verification" content="NTxsB0sz66JE-I2DUAISpV6OoTiJmWy6KSJJkWO0srY" />
         <title>Stem. | To Make Every Moment Bloom</title>
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-V8NSXRNSEN" strategy="afterInteractive" />
