@@ -41,8 +41,9 @@ function AboutPreview() {
           <Link
             href="/about"
             className="mt-8 inline-block border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:mt-10 md:px-8 md:py-4 md:text-sm"
+            aria-label="Learn more about Stem"
           >
-            Learn More
+            About Stem
           </Link>
         </div>
       </div>

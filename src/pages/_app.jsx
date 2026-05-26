@@ -16,18 +16,18 @@ export default function App({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <title>Stem. | To Make Every Moment Bloom</title>
       </Head>
-      <Layout>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-V8NSXRNSEN" strategy="afterInteractive" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-V8NSXRNSEN" strategy="afterInteractive" />
 
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-V8NSXRNSEN');
   `}
-        </Script>
+      </Script>
+      <Layout>
         <Component {...pageProps} />
       </Layout>
     </>
