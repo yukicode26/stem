@@ -69,6 +69,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition hover:opacity-70"
+                    aria-label="instagram"
                   >
                     <FaInstagram />
                   </a>
@@ -78,6 +79,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition hover:opacity-70"
+                    aria-label="pinterest"
                   >
                     <FaPinterestP />
                   </a>
