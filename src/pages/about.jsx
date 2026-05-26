@@ -10,7 +10,7 @@ function AboutPage() {
         {/* Story */}
         <section className="mx-auto grid max-w-6xl items-center gap-16 px-6 py-20 md:grid-cols-2 md:py-28">
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-accent">
+            <p className="text-sm uppercase tracking-[0.3em] text-secondary">
               Our Story
             </p>
 

@@ -6,7 +6,7 @@ function HomeHero() {
     <section className="mx-auto grid min-h-[80vh] max-w-7xl items-center gap-12 px-6 py-14 md:px-12 md:py-20 lg:grid-cols-2 lg:px-16">
       {/* Left content */}
       <div className="max-w-xl">
-        <p className="mb-5 text-sm uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
+        <p className="mb-5 text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">
           Melbourne Florist
         </p>
 

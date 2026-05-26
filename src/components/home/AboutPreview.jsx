@@ -18,7 +18,7 @@ function AboutPreview() {
 
         {/* Right content */}
         <div className="lg:pl-8">
-          <p className="text-sm uppercase tracking-[0.3em] text-accent md:tracking-[0.35em]">
+          <p className="text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">
             About Stem.
           </p>
 

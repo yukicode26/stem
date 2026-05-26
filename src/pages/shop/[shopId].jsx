@@ -18,7 +18,7 @@ function ShopId() {
         <Image src={shop.image} alt={shop.name} width={500} height={600} className="aspect-4/5 w-full object-cover" />
       </div>
       <div className="flex flex-col justify-center">
-        <p className="mb-4 text-sm uppercase tracking-[0.25em] text-accent">{shop.category}</p>
+        <p className="mb-4 text-sm uppercase tracking-[0.25em] text-secondary">{shop.category}</p>
         <h1 className="text-5xl">{shop.name}</h1>
 
         <p className="mt-6 text-2xl">${shop.price}.00</p>
