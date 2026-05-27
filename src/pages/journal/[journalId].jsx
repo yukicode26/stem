@@ -17,7 +17,7 @@ function JournalId() {
 
   return (
     <>
-  <main className="mx-auto max-w-3xl px-6 py-16">
+  <main className="max-w-3xl px-6 py-16 mx-auto">
     <p className="text-sm uppercase tracking-[0.3em]">{journal.date}</p>
     <h1 className="mt-4 text-4xl font-light leading-tight md:text-5xl">{journal.title}</h1>
     <Image

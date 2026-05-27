@@ -10,20 +10,20 @@ function FaqPage() {
     <>
       <PageHeader title="FAQ" />
 
-      <main className="mx-auto max-w-3xl px-6 py-16">
+      <main className="max-w-3xl px-6 py-16 mx-auto">
         <section className="mb-12 text-center">
           <h1 className="mt-4 text-3xl md:text-4xl">
             How can we help?
           </h1>
 
-          <p className="mx-auto mt-5 max-w-xl">
+          <p className="max-w-xl mx-auto mt-5">
             Here are some common questions about our flowers, delivery, and orders.
           </p>
         </section>
 
         {/* FAQ list */}
           {faqItems.map((item) => (
-            <article key={item.id} className="border-b px-6 py-6">
+            <article key={item.id} className="px-6 py-6 border-b">
               <button
               // Save clicked item id into openId
                 onClick={() => setOpenId(openId === item.id ? null : item.id)}

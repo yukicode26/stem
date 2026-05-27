@@ -8,8 +8,8 @@ function JournalPage() {
     <>
       <PageHeader title="Journal" />
 
-      <main className="mx-auto max-w-6xl px-6 py-16">
-        <section className="mb-14 text-center">
+      <main className="max-w-6xl px-6 py-16 mx-auto">
+        <section className="text-center mb-14">
           <h1 className="mt-4 text-3xl md:text-4xl">
             Flower notes and seasonal stories
           </h1>
@@ -17,14 +17,14 @@ function JournalPage() {
 
         <section className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {journalItems.map((item) => (
-            <article key={item.id} className="group border border-secondary-light p-6">
+            <article key={item.id} className="p-6 border group border-secondary-light">
               <Link href={`/journal/${item.id}`}>
                 <Image
                   src={item.image}
                   alt={item.title}
                   width={800}
                   height={1000}
-                  className="aspect-4/5 w-full object-cover transition duration-300 group-hover:opacity-80"
+                  className="object-cover w-full transition duration-300 aspect-4/5 group-hover:opacity-80"
                 />
 
                 <p className="mt-5 text-sm">
@@ -35,7 +35,7 @@ function JournalPage() {
                   {item.title}
                 </h2>
 
-                <p className="mt-4 line-clamp-3 leading-7">
+                <p className="mt-4 leading-7 line-clamp-3">
                   {item.content}
                 </p>
 

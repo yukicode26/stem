@@ -1,11 +1,5 @@
 import Image from "next/image";
-
-import {
-  HiOutlineMapPin,
-  HiOutlineClock,
-  HiOutlineTruck,
-} from "react-icons/hi2";
-
+import { HiOutlineMapPin, HiOutlineClock, HiOutlineTruck } from "react-icons/hi2";
 import PageHeader from "@/components/common/PageHeader";
 
 function DeliveryPage() {
@@ -14,7 +8,7 @@ function DeliveryPage() {
       <PageHeader title="Delivery Info" />
 
       <main className="px-6 py-16">
-        <section className="mx-auto grid max-w-5xl gap-12 p-8 md:grid-cols-2 md:p-12 border border-secondary-light">
+        <section className="grid max-w-5xl gap-12 p-8 mx-auto border md:grid-cols-2 md:p-12 border-secondary-light">
 
           {/* Left Content */}
           <div>
@@ -71,13 +65,13 @@ function DeliveryPage() {
 
           {/* Right Image */}
           <div className="flex items-center justify-center">
-            <div className="overflow-hidden  bg-cream">
+            <div className="overflow-hidden bg-cream">
               <Image
                 src="/images/delivery.webp"
                 alt="Flower bouquet"
                 width={500}
                 height={600}
-                className="aspect-4/5 object-cover"
+                className="object-cover aspect-4/5"
               />
             </div>
           </div>

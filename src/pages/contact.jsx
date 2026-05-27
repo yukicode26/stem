@@ -1,11 +1,5 @@
 import Image from "next/image";
-
-import {
-  HiOutlineEnvelope,
-  HiOutlineMapPin,
-  HiOutlinePhone,
-} from "react-icons/hi2";
-
+import { HiOutlineEnvelope, HiOutlineMapPin, HiOutlinePhone } from "react-icons/hi2";
 import PageHeader from "@/components/common/PageHeader";
 
 function ContactPage() {
@@ -14,7 +8,7 @@ function ContactPage() {
       <PageHeader title="Contact" />
 
       <main className="px-6 py-16">
-        <section className="mx-auto grid max-w-5xl gap-12 border border-secondary-light p-8 md:grid-cols-2 md:p-12">
+        <section className="grid max-w-5xl gap-12 p-8 mx-auto border border-secondary-light md:grid-cols-2 md:p-12">
 
           {/* Left Content */}
           <div>
@@ -80,7 +74,7 @@ function ContactPage() {
                 alt="Flower arrangement"
                 width={500}
                 height={600}
-                className="aspect-4/5 object-cover"
+                className="object-cover aspect-4/5"
               />
             </div>
           </div>

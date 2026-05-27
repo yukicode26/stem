@@ -6,16 +6,15 @@ import Link from "next/link";
 function ShopId() {
   const router = useRouter();
   const shopId = router.query.shopId;
-  console.log(shopId);
   const shop = shopItems.find((item) => item.id === shopId);
   if (!shop) {
-    return <p>Loading...</p>;
+    return <p>Loading product...</p>;
   }
 
   return (
-    <div className="mx-auto grid max-w-6xl gap-12 px-8 py-16 md:grid-cols-2">
-      <div className="border border-secondary-light p-6">
-        <Image src={shop.image} alt={shop.name} width={500} height={600} className="aspect-4/5 w-full object-cover" />
+    <div className="grid max-w-6xl gap-12 px-8 py-16 mx-auto md:grid-cols-2">
+      <div className="p-6 border border-secondary-light">
+        <Image src={shop.image} alt={shop.name} width={500} height={600} className="object-cover w-full aspect-4/5" />
       </div>
       <div className="flex flex-col justify-center">
         <p className="mb-4 text-sm uppercase tracking-[0.25em] text-secondary">{shop.category}</p>

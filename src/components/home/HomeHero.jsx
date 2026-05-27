@@ -18,12 +18,12 @@ function HomeHero() {
           moments.
         </h1>
 
-        <p className="mt-6 max-w-md leading-8 md:mt-7">
+        <p className="max-w-md mt-6 leading-8 md:mt-7">
           Fresh seasonal flowers, softly arranged in Melbourne for everyday gifts,
           calm homes, and special days.
         </p>
 
-        <div className="mt-8 flex flex-wrap gap-4 md:mt-10">
+        <div className="flex flex-wrap gap-4 mt-8 md:mt-10">
           <Link
             href="/shop"
             className="border border-transparent px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:px-8 md:py-4 md:text-sm"

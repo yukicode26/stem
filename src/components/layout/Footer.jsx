@@ -3,8 +3,8 @@ import { FaInstagram, FaPinterestP } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-accent-light text-secondary py-4 px-4">
-      <div className="mx-auto max-w-6xl px-4 py-12">
+    <footer className="px-4 py-4 bg-accent-light text-secondary">
+      <div className="max-w-6xl px-4 py-12 mx-auto">
         {/* Main footer layout */}
         <div className="grid gap-6 md:grid-cols-5">
           {/* Brand */}
@@ -12,7 +12,7 @@ function Footer() {
             <Link href={"/"}>
               <h2 className="text-4xl tracking-wide">stem.</h2>
             </Link>
-            <p className="mt-2 max-w-xs text-sm">To make every moment bloom</p>
+            <p className="max-w-xs mt-2 text-sm">To make every moment bloom</p>
           </div>
 
           {/* Empty spacer column */}
@@ -90,7 +90,7 @@ function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="mt-10 border-t border-white/20 pt-6 text-center text-sm text-secondary">
+        <div className="pt-6 mt-10 text-sm text-center border-t border-white/20 text-secondary">
           © 2026 stem. All rights reserved.
         </div>
       </div>

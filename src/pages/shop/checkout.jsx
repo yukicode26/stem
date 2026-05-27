@@ -7,15 +7,15 @@ function CheckoutPage() {
   
   return (
     <div className="px-6 py-12 md:px-10 md:py-16">
-    <div className="max-w-xl mx-auto my-12 border p-8">
-      <h1 className="text-center text-4xl my-8">Checkout</h1>
+    <div className="max-w-xl p-8 mx-auto my-12 border">
+      <h1 className="my-8 text-4xl text-center">Checkout</h1>
       <form className="flex flex-col gap-6 ">
         <label className="flex flex-col gap-2">
           Full Name
           <input 
           required 
           type="text" 
-          className="border-b px-4 py-2 outline-accent" />
+          className="px-4 py-2 border-b outline-accent" />
         </label>
 
         <label className="flex flex-col gap-2">
@@ -23,21 +23,21 @@ function CheckoutPage() {
           <input 
           required 
           type="email" 
-          className="border-b px-4 py-2 outline-accent" />
+          className="px-4 py-2 border-b outline-accent" />
         </label>
 
         <label className="flex flex-col gap-2">
           Delivery Address
-          <textarea required className="border-b px-4 py-2 outline-accent"></textarea>
+          <textarea required className="px-4 py-2 border-b outline-accent"></textarea>
         </label>
         <label className="flex flex-col gap-2">
           Delivery Date
           <input 
           required 
           type="date" 
-          className="border-b px-4 py-2 outline-accent" />
+          className="px-4 py-2 border-b outline-accent" />
         </label>
-        <div className="mt-6 flex items-center justify-between">
+        <div className="flex items-center justify-between mt-6">
           <Link href="/shop/cart" className="text-sm hover:underline underline-offset-8 uppercase tracking-[0.2em]">
             Back to Cart
           </Link>
