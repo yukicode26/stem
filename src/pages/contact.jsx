@@ -27,9 +27,9 @@ function ContactPage() {
                     Email
                   </h3>
 
-                  <p className="leading-7">
+                  <a href="mailto:hello@stem.com.au" className="inline-flex leading-7 transition duration-300 hover:scale-110 hover:opacity-70">
                     hello@stem.com.au
-                  </p>
+                  </a>
                 </div>
               </div>
 
