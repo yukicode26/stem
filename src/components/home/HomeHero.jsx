@@ -27,7 +27,7 @@ function HomeHero() {
         <div className="flex flex-wrap gap-4 mt-8 md:mt-10">
           <Link
             href="/shop"
-            className="border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:px-8 md:py-4 md:text-sm"
+            className="border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:px-8 md:py-4 md:text-sm bg-accent-light"
           >
             Shop Now
           </Link>

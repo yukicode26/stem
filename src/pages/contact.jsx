@@ -74,6 +74,7 @@ function ContactPage() {
                 alt="Flower arrangement"
                 width={500}
                 height={600}
+                loading="eager"
                 className="object-cover aspect-4/5"
               />
             </div>
