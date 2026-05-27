@@ -1,6 +1,4 @@
-
-
-const faqItems= [
+const faqItems = [
   {
     id: "delivery",
     question: "Do you offer same-day delivery?",
@@ -16,14 +14,13 @@ const faqItems= [
   {
     id: "payment",
     question: "What payment methods do you accept?",
-    answer: "We accept major credit cards, debit cards, and online payments.",
+    answer: "This concept website does not currently process real payments or checkout transactions."
   },
 
   {
     id: "care",
     question: "How do I care for my flowers?",
-    answer:
-      "Keep them in fresh water, away from direct sunlight, and trim the stems every few days.",
+    answer: "Keep them in fresh water, away from direct sunlight, and trim the stems every few days.",
   },
 ];
 

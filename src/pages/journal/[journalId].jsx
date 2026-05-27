@@ -12,20 +12,20 @@ function JournalId() {
   );
     // Prevent undefined error
   if (!journal) {
-  return <p>Loading...</p>;
+  return <p className="py-20 text-lg text-center">Loading...</p>;
   }
 
   return (
     <>
   <main className="max-w-3xl px-6 py-16 mx-auto">
-    <p className="text-sm uppercase tracking-[0.3em]">{journal.date}</p>
+    <p className="text-sm uppercase tracking-[0.3em]">{journal.category} · {journal.date}</p>
     <h1 className="mt-4 text-4xl font-light leading-tight md:text-5xl">{journal.title}</h1>
     <Image
       src={journal.image}
       alt={journal.title}
       width={1200}
       height={1500}
-      className="mt-10 aspect-[4/5] w-full object-cover"
+      className="object-cover w-full mt-10 aspect-4/5"
     />
     <p className="mt-10 leading-8">{journal.content}</p>
     <Link
@@ -39,4 +39,4 @@ function JournalId() {
   );
 }
 
-export default JournalId
+export default JournalId;

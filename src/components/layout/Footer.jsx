@@ -10,7 +10,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <Link href={"/"}>
-              <h2 className="text-4xl tracking-wide">stem.</h2>
+              <h2 className="inline-flex text-4xl tracking-wide transition duration-300 hover:scale-110 hover:opacity-70">stem.</h2>
             </Link>
             <p className="max-w-xs mt-2 text-sm">To make every moment bloom</p>
           </div>
@@ -23,7 +23,7 @@ function Footer() {
             <h3 className="text-lg font-semibold">Shop</h3>
             <ul className="mt-5 space-y-3 text-sm text-secondary">
               <li>
-                <Link href="/shop" className="hover:text-secondary-light">
+                <Link href="/shop" className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70">
                   All Flowers
                 </Link>
               </li>
@@ -35,17 +35,17 @@ function Footer() {
             <h3 className="text-lg font-semibold">Help</h3>
             <ul className="mt-5 space-y-3 text-sm text-secondary">
               <li>
-                <Link href="/faq" className="hover:text-white">
+                <Link href="/faq" className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/delivery" className="hover:text-white">
+                <Link href="/delivery" className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70">
                   Delivery Info
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-white">
+                <Link href="/privacy" className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70">
                   Privacy Policy
                 </Link>
               </li>
@@ -57,7 +57,7 @@ function Footer() {
             <h3 className="text-lg font-semibold">Contact</h3>
             <ul className="mt-5 space-y-3 text-sm text-secondary">
               <li>
-                <a href="mailto:hello@casaflorista.com.au" className="hover:text-white">
+                <a href="mailto:hello@stem.com.au" className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70">
                   hello@stem.com.au
                 </a>
               </li>
@@ -68,8 +68,8 @@ function Footer() {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition hover:opacity-70"
-                    aria-label="instagram"
+                    className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70"
+                    aria-label="Instagram"
                   >
                     <FaInstagram />
                   </a>
@@ -78,8 +78,8 @@ function Footer() {
                     href="https://pinterest.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transition hover:opacity-70"
-                    aria-label="pinterest"
+                    className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70"
+                    aria-label="Pinterest"
                   >
                     <FaPinterestP />
                   </a>

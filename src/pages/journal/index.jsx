@@ -10,9 +10,9 @@ function JournalPage() {
 
       <main className="max-w-6xl px-6 py-16 mx-auto">
         <section className="text-center mb-14">
-          <h1 className="mt-4 text-3xl md:text-4xl">
+          <h2 className="mt-4 text-3xl md:text-4xl">
             Flower notes and seasonal stories
-          </h1>
+          </h2>
         </section>
 
         <section className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">

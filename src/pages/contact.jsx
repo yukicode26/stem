@@ -68,7 +68,7 @@ function ContactPage() {
 
           {/* Right Image */}
           <div className="flex items-center justify-center">
-            <div className="overflow-hidden bg-cream">
+            <div className="overflow-hidden">
               <Image
                 src="/images/contact.webp"
                 alt="Flower arrangement"

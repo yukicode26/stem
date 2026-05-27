@@ -5,14 +5,12 @@ import FromTheJournal from "@/components/home/FromTheJournal";
 
 function HomePage() {
   return (
-    <>
       <main>
         <HomeHero />
         <SeasonalCollection />
         <FromTheJournal />
         <AboutPreview />
       </main>
-    </>
   );
 }
 

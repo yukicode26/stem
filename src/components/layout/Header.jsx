@@ -6,14 +6,17 @@ function Header() {
     <header className="px-6 py-5 bg-primary text-secondary md:px-8">
       <div className="flex items-center justify-between mx-auto max-w-7xl lg:flex-col">
         <Link href="/" aria-label="Home page">
-          <h2 className="text-4xl md:text-5xl">stem.</h2>
+          <h2 className="text-4xl transition duration-300 hover:opacity-70 md:text-5xl">stem.</h2>
         </Link>
-        {/* daisyUI */}
+        {/* daisyUI navbar*/}
         <nav className="w-auto">
           <div className="p-0 navbar lg:mt-4">
             {/* Mobile menu */}
             <div className="ml-auto dropdown lg:hidden">
-              <label tabIndex={0} className="btn btn-ghost">
+              <label 
+              tabIndex={0} 
+              className="btn btn-ghost" 
+              aria-label="Open menu">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6"
@@ -54,7 +57,7 @@ function Header() {
             </div>
 
             {/* Desktop menu */}
-            <ul className="hidden px-1 text-lg menu menu-horizontal lg:flex ">
+            <ul className="hidden px-1 text-lg menu menu-horizontal lg:flex">
               <li>
                 <Link href="/" className="hover:bg-transparent hover:text-accent">
                   Home

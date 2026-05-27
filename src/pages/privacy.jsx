@@ -4,8 +4,8 @@ function PrivacyPage() {
   return (
     <>
       <PageHeader title="Privacy Policy" />
-<div className="px-6 md:px-12 lg:px-24">
-      <main className="max-w-3xl px-8 py-10 mx-auto my-8 border border-secondary-light md:my-12 md:px-14 md:py-14 lg:px-20">
+<main className="px-6 md:px-12 lg:px-24">
+      <div className="max-w-3xl px-8 py-10 mx-auto my-8 border border-secondary-light md:my-12 md:px-14 md:py-14 lg:px-20">
         <section className="space-y-10">
           <div>
             <p>
@@ -32,7 +32,7 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">How We Use Your Information</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">How We Use Your Information</h2>
             <p>Your information may be used to:</p>
 
             <ul className="mt-3 ml-6 space-y-2 list-disc">
@@ -44,14 +44,14 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">Cookies</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">Cookies</h2>
             <p>
               This website may use cookies and analytics tools to improve user experience and website performance.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">Third-Party Services</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">Third-Party Services</h2>
             <p>
               We may use trusted third-party services such as Google Analytics to help understand website traffic and
               usage.
@@ -59,21 +59,21 @@ function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">Data Security</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">Data Security</h2>
             <p>
               We take reasonable steps to protect your personal information and keep it secure.
             </p>
           </div>
 
           <div>
-            <h2 className="mb-3 text-2xl font-medium tracking-wide">Contact Us</h2>
+            <h2 className="mb-3 text-xl tracking-wide md:text-2xl">Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, please contact us through the Contact page.
             </p>
           </div>
         </section>
-      </main>
       </div>
+      </main>
     </>
   );
 }

@@ -10,8 +10,8 @@ const journalItems = [
   },
 
   {
-    id: "Spring-festival",
-    title: "Spring Flower Festival 2026",
+    id: "spring-festival",
+    title: "Spring Flower Festival 2025",
     date: "September 2025",
     category: "Event",
     image: "/images/journal/journal2.webp",

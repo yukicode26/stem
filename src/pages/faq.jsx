@@ -12,9 +12,9 @@ function FaqPage() {
 
       <main className="max-w-3xl px-6 py-16 mx-auto">
         <section className="mb-12 text-center">
-          <h1 className="mt-4 text-3xl md:text-4xl">
+          <h2 className="mt-4 text-3xl md:text-4xl">
             How can we help?
-          </h1>
+          </h2>
 
           <p className="max-w-xl mx-auto mt-5">
             Here are some common questions about our flowers, delivery, and orders.

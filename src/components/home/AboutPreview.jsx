@@ -8,19 +8,17 @@ function AboutPreview() {
         {/* Left image */}
         <div className="overflow-hidden rounded-tr-[80px] md:rounded-tr-[120px]">
           <Image
-            src="/images/aboutpreview.webp"
+            src="/images/about-preview.webp"
             alt="Florist arranging flowers"
             width={900}
             height={1000}
-            className="h-[380px] w-full object-cover transition duration-[5000ms] hover:scale-105 md:h-[520px]"
+            className="object-cover w-full transition ease-out h-95 duration-[3000ms] hover:scale-105 md:h-130"
           />
         </div>
 
         {/* Right content */}
         <div className="lg:pl-8">
-          <p className="text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">
-            About Stem.
-          </p>
+          <p className="text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">About Stem.</p>
 
           <h2 className="max-w-xl mt-5 text-3xl leading-tight sm:text-4xl md:text-5xl">
             Quiet flowers,
@@ -29,13 +27,11 @@ function AboutPreview() {
           </h2>
 
           <p className="max-w-lg mt-6 leading-8 md:mt-8">
-            We create soft, natural flower arrangements for everyday moments,
-            calm spaces, and thoughtful gifts.
+            We create soft, natural flower arrangements for everyday moments, calm spaces, and thoughtful gifts.
           </p>
 
           <p className="max-w-lg mt-5 leading-8">
-            Each bouquet is arranged in Melbourne with seasonal blooms, gentle
-            colours, and a simple sense of beauty.
+            Each bouquet is arranged in Melbourne with seasonal blooms, gentle colours, and a simple sense of beauty.
           </p>
 
           <Link

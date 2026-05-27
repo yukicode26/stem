@@ -1,12 +1,11 @@
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link"
 
 function ConfirmationPage() {
   return (
     <div className='max-w-2xl py-20 mx-auto text-center'>
       <h1 className='py-10 text-4xl'>Thank you</h1>
       <p className='mt-6'>Your order has been placed successfully</p>
-<Link href="/shop" className='w-fit mt-10 py-4 px-8 uppercase tracking-[0.2em] transition  inline-block border hover:bg-accent hover:text-primary'>
+<Link href="/shop" className='w-fit mt-10 py-4 px-8 uppercase tracking-[0.2em] transition  inline-block border border-secondary-light hover:bg-accent hover:text-primary'>
 Back to Shop
 </Link>
 

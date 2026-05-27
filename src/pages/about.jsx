@@ -14,9 +14,9 @@ function AboutPage() {
               Our Story
             </p>
 
-            <h1 className="mt-5 text-4xl font-light leading-tight md:text-5xl">
+            <h2 className="mt-5 text-4xl font-light leading-tight md:text-5xl">
               Flowers for quiet, beautiful moments.
-            </h1>
+            </h2>
 
             <p className="max-w-md mt-8 leading-8">
               Stem. was founded in Melbourne with a love for natural beauty

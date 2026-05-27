@@ -18,10 +18,10 @@ function Layout(props) {
     <div className={`${manrope.variable} ${dmSerif.variable} flex flex-col min-h-screen`}>
       <Header />
 
-      <main className="flex-1">
+      <div className="flex-1">
         {/* MAIN CONTENT WINDOW: "Layout doesn't know it's children in advance" */}
         {props.children}
-      </main>
+      </div>
       <Footer />
     </div>
   );

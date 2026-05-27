@@ -5,10 +5,12 @@ import Link from "next/link";
 
 function ShopId() {
   const router = useRouter();
+  // Get dynamic route parameter from URL
   const shopId = router.query.shopId;
+  // Find matching product data
   const shop = shopItems.find((item) => item.id === shopId);
   if (!shop) {
-    return <p>Loading product...</p>;
+    return <p className="py-20 text-lg text-center">Loading product...</p>;
   }
 
   return (
@@ -38,7 +40,7 @@ function ShopId() {
           Add to Cart
         </button>
         <Link href="/shop" className="mt-20 block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
-          back to shop
+          Back to Shop
         </Link>
       </div>
     </div>

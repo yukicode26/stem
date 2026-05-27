@@ -10,7 +10,7 @@ https://stem-flower.vercel.app
 
 ## Preview
 
-![STEM Preview](./public/images/readme-preview.webp)
+![stem. Preview](./public/images/readme-preview.webp)
 
 ## Built With
 
@@ -24,7 +24,7 @@ https://stem-flower.vercel.app
 
 - Responsive design
 - Dynamic product pages
-- LocalStorage shopping cart
+- Single-item localStorage shopping cart
 - SEO optimisation
 - Accessibility improvements
 - Mobile-friendly layout
@@ -41,6 +41,14 @@ https://stem-flower.vercel.app
 - This project is a front-end concept website created for educational purposes.
 - The shopping cart currently supports single-item localStorage functionality.
 - Checkout and payment processing are not implemented.
+- All website images used in this project were AI-generated for educational and mockup purposes.
+- Website planning included sitemap creation, wireframes, style guides, and UI prototyping.
+- The final UI prototype was designed using v0 before development.
+
+
+## Deployment
+
+Deployed with Vercel.
 
 ## Future Improvements
 

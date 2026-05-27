@@ -27,7 +27,7 @@ function NotFoundPage() {
     <div className="mt-12">
       <Link
         href="/"
-        className="px-10 py-5 text-lg transition duration-300 border border-s-secondary-light hover:bg-accent hover:text-primary"
+        className="px-10 py-5 text-lg transition duration-300 border border-secondary-light hover:bg-accent hover:text-primary"
       >
         Return to Home
       </Link>
@@ -41,7 +41,6 @@ function NotFoundPage() {
       alt="Flower arrangement"
       width={1200}
       height={1200}
-      loading="eager"
       className="h-auto w-[380px] md:w-[480px] lg:w-[560px]"
     />
   </div>
