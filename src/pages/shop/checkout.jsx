@@ -9,7 +9,14 @@ function CheckoutPage() {
     <div className="px-6 py-12 md:px-10 md:py-16">
     <div className="max-w-xl p-8 mx-auto my-12 border border-secondary-light">
       <h1 className="my-8 text-4xl text-center">Checkout</h1>
-      <form className="flex flex-col gap-6 ">
+      
+      {/* Validate form fields before moving to confirmation page */}
+      <form className="flex flex-col gap-6"
+      onSubmit={(e)=>{
+        e.preventDefault();
+        router.push("/shop/confirmation");
+      }}
+      >
         <label className="flex flex-col gap-2">
           Full Name
           <input 
@@ -42,7 +49,7 @@ function CheckoutPage() {
             Back to Cart
           </Link>
 
-        <button onClick={() => router.push("/shop/confirmation")} type="submit" className="w-fit py-4 px-8 text-sm uppercase tracking-[0.2em] transition border border-secondary-light hover:bg-accent hover:text-primary">
+        <button type="submit" className="w-fit py-4 px-8 text-sm uppercase tracking-[0.2em] transition border border-secondary-light hover:bg-accent hover:text-primary">
           Place Order
         </button>
         </div>
