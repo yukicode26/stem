@@ -28,7 +28,7 @@ function ContactPage() {
                   </h3>
 
                   <p className="leading-7">
-                    hello@stem.com
+                    hello@stem.com.au
                   </p>
                 </div>
               </div>

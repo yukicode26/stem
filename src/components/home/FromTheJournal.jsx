@@ -21,7 +21,7 @@ function FromTheJournal() {
         <div className="lg:col-span-2">
           <Image
             src="/images/journal/journal2.webp"
-            alt="Seasonal flowers"
+            alt="Spring Flower Festival"
             width={900}
             height={1000}
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -33,7 +33,7 @@ function FromTheJournal() {
           <div>
             <Image
               src="/images/journal/journal5.webp"
-              alt="Seasonal flowers"
+              alt="Choosing Flowers as a Gift"
               width={500}
               height={400}
               className="object-cover w-full h-full aspect-4/5 lg:h-full"
@@ -43,7 +43,7 @@ function FromTheJournal() {
           <div>
             <Image
               src="/images/journal/journal6.webp"
-              alt="Seasonal flowers"
+              alt="A Quiet Morning in the Studio"
               width={500}
               height={400}
               className="object-cover w-full h-full aspect-4/5 lg:h-full"
