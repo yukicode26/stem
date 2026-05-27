@@ -6,7 +6,7 @@ This project was created as part of an Information Architecture coursework asses
 
 ## Live Demo
 
-https://your-vercel-link.vercel.app
+https://stem-flower.vercel.app
 
 ## Preview
 
