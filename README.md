@@ -18,7 +18,6 @@ https://stem-flower.vercel.app
 - React
 - Tailwind CSS
 - DaisyUI
-- Google Analytics
 
 ## Features
 
@@ -53,9 +52,9 @@ Deployed with Vercel.
 ## Future Improvements
 
 - Multi-item shopping cart
-- Backend integration
-- Add checkout and payment integration
 - Connect to a real database and CMS
+- Backend integration
+- Improve checkout experience
 - Add category sidebar navigation for easier product browsing
 
 ## Author
