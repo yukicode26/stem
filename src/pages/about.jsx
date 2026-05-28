@@ -19,7 +19,7 @@ function AboutPage() {
             </h2>
 
             <p className="max-w-md mt-8 leading-8">
-              Stem. was founded in Melbourne with a love for natural beauty
+              stem. was founded in Melbourne with a love for natural beauty
               and thoughtful design. We create soft, seasonal arrangements for
               everyday spaces, gifts, and special occasions.
             </p>

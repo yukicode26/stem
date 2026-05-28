@@ -18,7 +18,7 @@ function AboutPreview() {
 
         {/* Right content */}
         <div className="lg:pl-8">
-          <p className="text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">About Stem.</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-secondary md:tracking-[0.35em]">About stem.</p>
 
           <h2 className="max-w-xl mt-5 text-3xl leading-tight sm:text-4xl md:text-5xl">
             Quiet flowers,
@@ -37,9 +37,9 @@ function AboutPreview() {
           <Link
             href="/about"
             className="mt-8 inline-block border border-secondary-light px-6 py-3 text-sm uppercase tracking-[0.2em] transition hover:bg-accent hover:text-primary md:mt-10 md:px-8 md:py-4 md:text-sm"
-            aria-label="Learn more about Stem"
+            aria-label="Learn more about stem"
           >
-            About Stem
+            About stem.
           </Link>
         </div>
       </div>

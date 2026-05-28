@@ -1,4 +1,4 @@
-# STEM.
+# stem.
 
 Minimal floral e-commerce concept website built with Next.js.  
 
