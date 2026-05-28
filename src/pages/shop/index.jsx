@@ -24,9 +24,15 @@ function ShopPage({ items }) {
                 </div>
 
                 <div className="mt-5 space-y-2">
-                  <h2 className="text-2xl">{item.name}</h2>
+                  <div className="flex items-start justify-between gap-4">
+                    <h2 className="text-2xl">{item.name}</h2>
 
-                  <p>${item.price}.00</p>
+                    <p className="shrink-0">${item.price}.00</p>
+                  </div>
+
+                  <div className="inline-block py-2 text-sm uppercase tracking-[0.15em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
+                    View Details
+                  </div>
                 </div>
               </Link>
             </article>
@@ -36,7 +42,6 @@ function ShopPage({ items }) {
     </>
   );
 }
-
 
 // Pass local product data to the shop page at build time
 export async function getStaticProps() {

@@ -39,7 +39,7 @@ function JournalPage() {
                   {item.content}
                 </p>
 
-                <span className="mt-6 inline-block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-4">
+                <span className="mt-6 inline-block text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
                   Read more
                 </span>
               </Link>

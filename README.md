@@ -54,8 +54,9 @@ Deployed with Vercel.
 
 - Multi-item shopping cart
 - Backend integration
-- Payment gateway support
-- CMS integration
+- Add checkout and payment integration
+- Connect to a real database and CMS
+- Add category sidebar navigation for easier product browsing
 
 ## Author
 

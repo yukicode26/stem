@@ -10,18 +10,19 @@ function AboutPage() {
         {/* Story */}
         <section className="grid items-center max-w-6xl gap-16 px-6 py-20 mx-auto md:grid-cols-2 md:py-28">
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-secondary">
-              Our Story
-            </p>
+            <p className="text-sm uppercase tracking-[0.3em] text-secondary">Our Story</p>
 
             <h2 className="mt-5 text-4xl font-light leading-tight md:text-5xl">
               Flowers for quiet, beautiful moments.
             </h2>
 
             <p className="max-w-md mt-8 leading-8">
-              stem. was founded in Melbourne with a love for natural beauty
-              and thoughtful design. We create soft, seasonal arrangements for
-              everyday spaces, gifts, and special occasions.
+              stem. was founded in Melbourne with a love for natural beauty and thoughtful design. We create soft,
+              seasonal arrangements for everyday spaces, gifts, and special occasions.
+            </p>
+            <p className="max-w-md mt-8 leading-8">
+              Inspired by calm interiors and modern living, our floral styling focuses on simplicity, warmth, and
+              seasonal beauty.
             </p>
           </div>
 
