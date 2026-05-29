@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/common/PageHeader";
 
-function ShopPage({ items }) {
+function ShopPage({ items = []}) {
   return (
     <>
       <PageHeader title="Shop" />
