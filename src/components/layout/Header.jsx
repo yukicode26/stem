@@ -69,7 +69,7 @@ function Header() {
                               {/* daisyUI Dark mode */}
                 <label className="swap swap-rotate cursor-pointer rounded-none bg-transparent p-3 hover:bg-transparent">
                   {/* this hidden checkbox controls the state */}
-                  <input type="checkbox" checked={isDark} onChange={handleThemeChange} />
+                  <input type="checkbox" checked={isDark} onChange={handleThemeChange} aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}/>
 
                   {/* sun icon */}
                   <span className="swap-on text-xl"><HiOutlineSun /></span>
@@ -121,7 +121,8 @@ function Header() {
                   <input 
                   type="checkbox" 
                   checked={isDark} 
-                  onChange={handleThemeChange} />
+                  onChange={handleThemeChange}
+                  aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"} />
 
                   <HiOutlineSun className="swap-on h-6 w-6" />
 

@@ -46,10 +46,8 @@ export async function getServerSideProps() {
   try {
     // Fetch product data from internal API route
     const res = await fetch("https://stem-flower.vercel.app/api/products");
-
     // Convert JSON response into JavaScript data
     const items = await res.json();
-
     return {
       props: {
         items: Array.isArray(items) ? items : [],

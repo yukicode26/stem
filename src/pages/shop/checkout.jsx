@@ -42,7 +42,8 @@ function CheckoutPage() {
           <input 
           required 
           type="date" 
-          className="px-4 py-2 border-b outline-accent" />
+          className="px-4 py-2 border-b outline-accent" 
+          />
         </label>
         <div className="flex items-center justify-between mt-6">
           <Link href="/shop/cart" className="text-sm hover:underline underline-offset-8 uppercase tracking-[0.2em]">
