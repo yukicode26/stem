@@ -27,7 +27,7 @@ function FaqPage() {
               <button
               // Save clicked item id into openId
                 onClick={() => setOpenId(openId === item.id ? null : item.id)}
-                className="w-full text-left transition duration-300 cursor-pointer hover:text-accent"
+                className="w-fit mx-auto transition duration-300 cursor-pointer hover:scale-105"
               >
                 <p className="text-xl">
                   {item.question}

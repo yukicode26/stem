@@ -42,16 +42,13 @@ function ShopPage({ items }) {
   );
 }
 
-// Run this function on the server before rendering the page
-export async function getServerSideProps() {
-  // Fetch product data from internal API route
-  const res = await fetch("https://stem-flower.vercel.app/api/products");
-  // Convert JSON response into JavaScript data
+export async function getStaticProps() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const res = await fetch(`${baseUrl}/api/products`);
   const items = await res.json();
-  // Pass fetched data to the ShopPage component as props
   return {
     props: {
-      items:items.shopItems,
+      items,
     },
   };
 }
