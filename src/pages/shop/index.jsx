@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/common/PageHeader";
 
-function ShopPage({ items = []}) {
+function ShopPage({ items = [] }) {
   return (
     <>
       <PageHeader title="Shop" />
@@ -42,15 +42,26 @@ function ShopPage({ items = []}) {
   );
 }
 
-export async function getStaticProps() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-  const res = await fetch(`${baseUrl}/api/products`);
-  const items = await res.json();
-  return {
-    props: {
-      items,
-    },
-  };
+export async function getServerSideProps() {
+  try {
+    // Fetch product data from internal API route
+    const res = await fetch("https://stem-flower.vercel.app/api/products");
+
+    // Convert JSON response into JavaScript data
+    const items = await res.json();
+
+    return {
+      props: {
+        items: Array.isArray(items) ? items : [],
+      },
+    };
+  } catch (error) {
+    return {
+      props: {
+        items: [],
+      },
+    };
+  }
 }
 
 export default ShopPage;
