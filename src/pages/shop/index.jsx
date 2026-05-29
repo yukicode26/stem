@@ -1,4 +1,3 @@
-import shopItems from "@/data/shopItems";
 import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/common/PageHeader";
@@ -44,12 +43,11 @@ function ShopPage({ items }) {
 }
 
 // Pass local product data to the shop page at build time
-export async function getStaticProps() {
-  return {
-    props: {
-      items: shopItems,
-    },
-  };
+export async function getServerSideProps() {
+  const res = await fetch(`https://stem-flower.vercel.app/api/products`)
+  const items = await res.json()
+ 
+  return { props: { items } }
 }
 
 export default ShopPage;
