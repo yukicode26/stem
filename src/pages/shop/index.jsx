@@ -62,19 +62,19 @@ function ShopPage({ items = [] }) {
 //   }
 // }
 
-// export const getStaticProps = async context => {
-//   const response = await fetch(`${process.env.SERVER_NAME}api/products`);
-//   const data = await response.json();
-//   console.log(data);
+export const getStaticProps = async context => {
+  const response = await fetch(`${process.env.SERVER_NAME}api/products`);
+  const data = await response.json();
+  console.log(data);
 
-//   if(!response.ok){
-//     throw new Error(`Failed to fetch shopItems - Error ${response.status}: ${data.message}`)
-//   }
-//   return {
-//     props: {
+  if(!response.ok){
+    throw new Error(`Failed to fetch shopItems - Error ${response.status}: ${data.message}`)
+  }
+  return {
+    props: {
 
-//     },
-//   };
-// };
+    },
+  };
+};
 
 export default ShopPage;
