@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PageHeader from "@/components/common/PageHeader";
+import { useState } from "react";
 
 function AboutPage() {
   return (
