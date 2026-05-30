@@ -63,7 +63,7 @@ function ShopPage({ items = [] }) {
 // }
 
 export const getStaticProps = async context => {
-  const response = await fetch(`${process.env.SERVER_NAME}api/products`);
+  const response = await fetch(`${process.env.SERVER_NAME}/api/products`);
   const data = await response.json();
   console.log(data);
 
@@ -72,7 +72,7 @@ export const getStaticProps = async context => {
   }
   return {
     props: {
-
+      items:data,
     },
   };
 };
