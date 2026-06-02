@@ -11,7 +11,7 @@ function ShopPage({ items = [] }) {
         <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <article key={item.id} className="w-full max-w-sm p-6 mx-auto border group border-secondary-light">
-              <Link href={`/shop/${item.id}`} aria-label={`View ${item.name}`}>
+              <Link href={`/shop/${item.id}`} aria-label={`View details for ${item.name}`}>
                 <div className="overflow-hidden">
                   <Image
                     src={item.image}
@@ -41,26 +41,6 @@ function ShopPage({ items = [] }) {
     </>
   );
 }
-
-// export async function getStaticProps() {
-//   try {
-//     // Fetch product data from internal API route
-//     const res = await fetch("https://stem-flower.vercel.app/api/products");
-//     // Convert JSON response into JavaScript data
-//     const items = await res.json();
-//     return {
-//       props: {
-//         items: Array.isArray(items) ? items : [],
-//       },
-//     };
-//   } catch (error) {
-//     return {
-//       props: {
-//         items: [],
-//       },
-//     };
-//   }
-// }
 
 export const getStaticProps = async context => {
   const response = await fetch(`${process.env.SERVER_NAME}/api/products`);

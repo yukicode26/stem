@@ -69,7 +69,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70"
-                    aria-label="Instagram"
+                    aria-label="Follow us on Instagram"
                   >
                     <FaInstagram />
                   </a>
@@ -79,7 +79,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex transition duration-300 hover:scale-110 hover:opacity-70"
-                    aria-label="Pinterest"
+                    aria-label="Follow us on Pinterest"
                   >
                     <FaPinterestP />
                   </a>

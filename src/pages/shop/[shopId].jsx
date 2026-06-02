@@ -1,14 +1,14 @@
 import { useRouter } from "next/router";
-import shopItems from "@/data/shopItems";
+// import shopItems from "@/data/shopItems";
 import Image from "next/image";
 import Link from "next/link";
 
-function ShopId() {
+function ShopId({ items = []}) {
   const router = useRouter();
   // Get dynamic route parameter from URL
   const shopId = router.query.shopId;
   // Find matching product data
-  const shop = shopItems.find((item) => item.id === shopId);
+  const shop = items.find((item) => item.id === shopId);
   if (!shop) {
     return <p className="py-20 text-lg text-center">Loading product...</p>;
   }
@@ -46,5 +46,41 @@ function ShopId() {
     </div>
   );
 }
+
+// Generate dynamic product pages from API data
+export const getStaticPaths = async () => {
+  const response = await fetch(`${process.env.SERVER_NAME}/api/products`);
+  // Convert response to JavaScript array
+  const data = await response.json();
+  // Create a list of dynamic routes
+  const paths = data.map((item) => ({
+    params: {
+      shopId: item.id.toString(),
+    },
+  }));
+  return {
+    // Tell Next.js which pages to generate
+    paths,
+    // Show 404 page if route does not exist
+    fallback: false,
+  };
+};
+
+// Fetch product data from API and pass it to the page as props
+export const getStaticProps = async context => {
+  const response = await fetch(`${process.env.SERVER_NAME}/api/products`);
+  const data = await response.json();
+  console.log(data);
+
+  if(!response.ok){
+    throw new Error(`Failed to fetch shopItems - Error ${response.status}: ${data.message}`)
+  }
+  return {
+    props: {
+      items:data,
+    },
+  };
+};
+
 
 export default ShopId;

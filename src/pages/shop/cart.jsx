@@ -34,7 +34,7 @@ function CartPage() {
   }
 
   return (
-    <div className="max-w-4xl px-6 py-12 mx-auto md:px-8 md:py-16">
+    <div className="max-w-4xl px-6 py-12 mt-16 lg:mt-0 mx-auto md:px-8 md:py-16">
       <h1 className="text-4xl">Your Cart</h1>
 
       <div className="flex flex-col gap-6 p-4 mt-10 border border-secondary-light md:flex-row md:gap-8 md:p-6">
