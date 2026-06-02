@@ -11,7 +11,7 @@ function ShopPage({ items = [] }) {
         <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <article key={item.id} className="w-full max-w-sm p-6 mx-auto border group border-secondary-light">
-              <Link href={`/shop/${item.id}`} aria-label={`View details for ${item.name}`}>
+              <Link href={`/shop/${item.id}`}>
                 <div className="overflow-hidden">
                   <Image
                     src={item.image}
@@ -29,7 +29,7 @@ function ShopPage({ items = [] }) {
                     <p className="shrink-0">${item.price}.00</p>
                   </div>
 
-                  <div className="inline-block mt-4 py-2 text-sm uppercase tracking-[0.15em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
+                  <div aria-label={`View details for ${item.name}`} className="inline-block mt-4 py-2 text-sm uppercase tracking-[0.15em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light">
                     View Details
                   </div>
                 </div>

@@ -11,7 +11,10 @@ function SeasonalCollection() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl">Seasonal Collection</h2>
           </div>
 
-          <Link href="/shop" className="text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light md:text-sm">
+          <Link
+            href="/shop"
+            className="text-sm uppercase tracking-[0.2em] hover:underline hover:underline-offset-8 hover:decoration-secondary-light md:text-sm"
+          >
             View All
           </Link>
         </div>
@@ -20,7 +23,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/soft-rose.webp"
-              alt="Seasonal flowers"
+              alt="Soft Rose bouquet"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -30,7 +33,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/autumn-tones.webp"
-              alt="Seasonal flowers"
+              alt="Autumn Tones arrangement"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -40,7 +43,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/winter-light.webp"
-              alt="Seasonal flowers"
+              alt="Winter Light bouquet"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -50,7 +53,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/spring-air.webp"
-              alt="Seasonal flowers"
+              alt="Spring Air floral arrangement"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -60,7 +63,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/summer-meadow.webp"
-              alt="Seasonal flowers"
+              alt="Summer Meadow bouquet"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -70,7 +73,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/golden-leaves.webp"
-              alt="Seasonal flowers"
+              alt="Golden Leaves autumn arrangement"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
@@ -80,7 +83,7 @@ function SeasonalCollection() {
           <div className="carousel-item">
             <Image
               src="/images/shop/rainy-morning.webp"
-              alt="Seasonal flowers"
+              alt="Rainy Morning floral arrangement"
               width={340}
               height={500}
               className="object-cover w-64 h-96 md:h-125 md:w-85"
