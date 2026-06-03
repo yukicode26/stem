@@ -41,7 +41,7 @@ function NotFoundPage() {
       alt="Flower arrangement"
       width={1200}
       height={1200}
-      className="h-auto w-[380px] md:w-[480px] lg:w-[560px]"
+      className="h-auto w-95 md:w-120 lg:w-140"
     />
   </div>
 

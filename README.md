@@ -2,7 +2,7 @@
 
 Minimal floral e-commerce concept website built with Next.js.  
 
-This project was created as part of an Information Architecture coursework assessment.
+This project was created as part of an Information Architecture coursework assessment and demonstrates modern web development practices including API data fetching, static site generation, dynamic routing, accessibility, and quality assurance.
 
 ## Live Demo
 
@@ -23,10 +23,14 @@ https://stem-flower.vercel.app
 
 - Responsive design
 - Dynamic product pages
+- Dynamic routing with Next.js
 - Single-item localStorage shopping cart
 - SEO optimisation
 - Accessibility improvements
 - Mobile-friendly layout
+- Internal API routes
+- Static Site Generation (SSG)
+- Dark mode support
 
 ## Learning Focus
 
@@ -34,10 +38,13 @@ https://stem-flower.vercel.app
 - Quality Assurance
 - Next.js workflows
 - Responsive UI design
+- API data fetching
+- Static Site Generation (SSG)
+
 
 ## Notes
 
-- This project is a front-end concept website created for educational purposes.
+- This project was developed as part of my Diploma of Information Technology (Web Development) studies.
 - The shopping cart currently supports single-item localStorage functionality.
 - Checkout and payment processing are not implemented.
 - All website images used in this project were AI-generated for educational and mockup purposes.

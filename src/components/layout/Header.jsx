@@ -4,12 +4,9 @@ import { useState } from "react";
 
 function Header() {
   const [isDark, setIsDark] = useState(false);
-
   function handleThemeChange() {
     const nextTheme = !isDark;
-
     setIsDark(nextTheme);
-
     if (nextTheme) {
       document.documentElement.classList.add("dark");
     } else {
