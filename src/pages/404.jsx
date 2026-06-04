@@ -17,7 +17,7 @@ function NotFoundPage() {
     </h1>
 
     <h2 className="max-w-2xl mt-6 text-4xl leading-tight md:text-5xl">
-      Page not found 😭.
+      Page not found.
     </h2>
 
     <p className="max-w-xl mt-8 text-lg leading-9 md:text-xl">
